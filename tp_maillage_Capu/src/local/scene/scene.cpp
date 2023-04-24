@@ -33,6 +33,8 @@ void scene::load_scene()
     // OBJ Mesh                                //
     //*****************************************//
     texture_dinosaur=load_texture_file("data/stegosaurus.jpg");
+    texture_sol=load_texture_file("data/herbe.jpg");
+
     mesh_dinosaur=load_mesh_file("data/stegosaurus.obj");
     mesh_dinosaur.transform_apply_auto_scale_and_center();
     mesh_dinosaur_opengl.fill_vbo(mesh_dinosaur);
@@ -74,34 +76,40 @@ void scene::load_scene()
 
 
 
-void scene::surface_plane(int xmin, int xmax, int ymin, int ymax, int Nu, int Nv){
 
-    //srand(time(0)) 
-    int Nu= 5;
-    int Nv=5;
-    //rand()%2+10
+void scene::surface_plane(int xmin,int xmax,int ymin,int ymax,int Nu,int Nv){
+    float pas_x = static_cast<float>(xmax-xmin)/Nu;
+    float pas_y = static_cast<float>(ymax-ymin)/Nv;
+    
+    auto z= perlin();
+    float kz =0.0;
 
-    for (int kv=ymin; kv<Nv; ++kv){ // creation du mesh 
-        for(int ku=xmin; ku<Nu; ++ku){
-            mesh_surface.add_vertex({ku,kv,0.0f});
-            mesh_surface.add_texture_coord({ku, kv});
-            mesh_surface.add_normal({0.0f,0.0f,1.0f});
+    for (float kv=ymin; kv<Nv*pas_y; kv=kv+pas_y ){
+        for (float ku=xmin; ku<Nu*pas_x; ku=ku+pas_x ){
+            if (kv<0.6 && kv>0.4 && ku<0.9 && ku>0.1){
+                kz=0.2;
+            }
+            else{
+                kz= z(vec2(ku, kv))/3;
+            }
+            mesh_surface.add_vertex( {ku,kv,kz} );  
+            mesh_surface.add_color( {ku,kv,0.8} );
+            
         }
     }
 
-    for (int k=0; k<Nv*Nu; ++k){ 
-        if ((k+1)%Nv != 0 && k<Nv*(Nu-1)){
+    for (int k=0; k<Nv*Nu; k++ ){
+        if (((k+1)%(Nv)!=0) && ((k<Nv*(Nu-1)))){
             mesh_surface.add_triangle_index({k,k+1,k+Nv+1});
             mesh_surface.add_triangle_index({k,k+Nv,k+Nv+1});
         }
     }
 
     mesh_surface.fill_empty_field_by_default();
-    mesh_surface.fill_color( {1,0.0,0.8} );
-
     mesh_surface_opengl.fill_vbo(mesh_surface);
-
 }
+
+
 
 void scene::draw_scene()
 {
@@ -121,10 +129,15 @@ void scene::draw_scene()
     glBindTexture(GL_TEXTURE_2D,texture_dinosaur); PRINT_OPENGL_ERROR();
     mesh_dinosaur_opengl.draw();
 
+    surface_plane(0,1,0,1,17,17);
+    glBindTexture(GL_TEXTURE_2D,texture_sol); PRINT_OPENGL_ERROR();
+
     glBindTexture(GL_TEXTURE_2D,texture_default);  PRINT_OPENGL_ERROR();
     mesh_camel_opengl.draw();
     mesh_ground_opengl.draw();
     mesh_surface_opengl.draw();
+
+    
 }
 
 
