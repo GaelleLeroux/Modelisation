@@ -11,6 +11,9 @@ make
 cd ..
 build/pgm
 
+pour le relancer :
+make -C build
+build/pgm
 =====================================================
 Commandes:
 
