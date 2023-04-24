@@ -70,10 +70,19 @@ void scene::load_scene()
     mesh_ground_opengl.fill_vbo(mesh_ground);
 
 
+}
+
+
+
+void scene::surface_plane(int xmin, int xmax, int ymin, int ymax, int Nu, int Nv){
+
+    //srand(time(0)) 
     int Nu= 5;
     int Nv=5;
-    for (int kv=0; kv<Nv; ++kv){ // creation du mesh 
-        for(int ku=0; ku<Nu; ++ku){
+    //rand()%2+10
+
+    for (int kv=ymin; kv<Nv; ++kv){ // creation du mesh 
+        for(int ku=xmin; ku<Nu; ++ku){
             mesh_surface.add_vertex({ku,kv,0.0f});
             mesh_surface.add_texture_coord({ku, kv});
             mesh_surface.add_normal({0.0f,0.0f,1.0f});
@@ -92,14 +101,7 @@ void scene::load_scene()
 
     mesh_surface_opengl.fill_vbo(mesh_surface);
 
-
-    
-
-
-
 }
-
-
 
 void scene::draw_scene()
 {
