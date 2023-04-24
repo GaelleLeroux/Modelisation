@@ -68,6 +68,7 @@ private:
 
     cpe::mesh mesh_surface;
     cpe::mesh_opengl mesh_surface_opengl;
+    GLuint texture_herbe;
 
 
 
