@@ -11,8 +11,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
-  "../extern/glew/CMakeLists.txt"
-  "../extern/glew/GeneratePkgConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake"
@@ -164,14 +162,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/pgm_autogen.dir/AutogenInfo.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "extern/glew/CMakeFiles/libglew_static_autogen.dir/AutogenInfo.json"
-  "extern/glew/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/pgm.dir/DependInfo.cmake"
   "CMakeFiles/pgm_autogen.dir/DependInfo.cmake"
-  "extern/glew/CMakeFiles/libglew_static.dir/DependInfo.cmake"
-  "extern/glew/CMakeFiles/libglew_static_autogen.dir/DependInfo.cmake"
   )

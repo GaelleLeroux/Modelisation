@@ -652,7 +652,7 @@ pgm: CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o
 pgm: CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o
 pgm: CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o
 pgm: CMakeFiles/pgm.dir/build.make
-pgm: lib/libglew.a
+pgm: /usr/lib/x86_64-linux-gnu/libGLEW.so
 pgm: /usr/lib/x86_64-linux-gnu/libGL.so
 pgm: /usr/lib/x86_64-linux-gnu/libGLU.so
 pgm: /usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5.15.3

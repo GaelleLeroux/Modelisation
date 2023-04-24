@@ -69,7 +69,37 @@ void scene::load_scene()
 
     mesh_ground_opengl.fill_vbo(mesh_ground);
 
+
+    int Nu= 5;
+    int Nv=5;
+    for (int kv=0; kv<Nv; ++kv){ // creation du mesh 
+        for(int ku=0; ku<Nu; ++ku){
+            mesh_surface.add_vertex({ku,kv,0.0f});
+            mesh_surface.add_texture_coord({ku, kv});
+            mesh_surface.add_normal({0.0f,0.0f,1.0f});
+        }
+    }
+
+    for (int k=0; k<Nv*Nu; ++k){ 
+        if ((k+1)%Nv != 0 && k<Nv*(Nu-1)){
+            mesh_surface.add_triangle_index({k,k+1,k+Nv+1});
+            mesh_surface.add_triangle_index({k,k+Nv,k+Nv+1});
+        }
+    }
+
+    mesh_surface.fill_empty_field_by_default();
+    mesh_surface.fill_color( {1,0.0,0.8} );
+
+    mesh_surface_opengl.fill_vbo(mesh_surface);
+
+
+    
+
+
+
 }
+
+
 
 void scene::draw_scene()
 {
@@ -92,7 +122,7 @@ void scene::draw_scene()
     glBindTexture(GL_TEXTURE_2D,texture_default);  PRINT_OPENGL_ERROR();
     mesh_camel_opengl.draw();
     mesh_ground_opengl.draw();
-
+    mesh_surface_opengl.draw();
 }
 
 

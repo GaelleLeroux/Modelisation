@@ -4,12 +4,15 @@ Le programme s'exécute depuis le répertoire en amont de shaders/ et data/.
 =====================================================
 Rappel pour compiler avec CMake puis executer:
 
+
+sudo apt install libglew-dev
+
 mkdir build
 cd build
 cmake ..
 make
 cd ..
-build/pgm
+GALLIUM_DRIVER=llvmpipe ./build/pgm
 
 =====================================================
 Commandes:

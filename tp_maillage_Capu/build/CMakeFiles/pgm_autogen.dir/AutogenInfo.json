@@ -434,8 +434,6 @@
 	"MOC_DEFINITIONS" : 
 	[
 		"CORRECTION",
-		"GLEW_NO_GLU",
-		"GLEW_STATIC",
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
 		"QT_NO_DEBUG",
@@ -451,21 +449,19 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/extern/glew/include",
-		"/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/G\u00e9o_MGP3D/Modelisation/tp_maillage_Capu/extern/glew/include",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
 		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
 		"/usr/include/x86_64-linux-gnu/qt5/QtOpenGL",
+		"/usr/include",
 		"/usr/include/c++/11",
 		"/usr/include/x86_64-linux-gnu/c++/11",
 		"/usr/include/c++/11/backward",
 		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
 		"/usr/local/include",
-		"/usr/include/x86_64-linux-gnu",
-		"/usr/include"
+		"/usr/include/x86_64-linux-gnu"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],

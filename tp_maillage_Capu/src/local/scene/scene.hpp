@@ -64,6 +64,8 @@ private:
     cpe::mesh mesh_ground;
     cpe::mesh_opengl mesh_ground_opengl;
 
+    cpe::mesh mesh_surface;
+    cpe::mesh_opengl mesh_surface_opengl;
 
 
 
