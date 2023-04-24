@@ -37,6 +37,7 @@ public:
     /** Set the pointer to the parent Widget */
     void set_widget(myWidgetGL* widget_param);
 
+    void surface_plane(int xmin,int xmax,int ymin,int ymax,int Nu,int Nv);
 
 private:
 

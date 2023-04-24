@@ -12,6 +12,8 @@ cd build
 cmake ..
 make
 cd ..
+
+make -C build
 GALLIUM_DRIVER=llvmpipe ./build/pgm
 
 =====================================================
