@@ -108,7 +108,7 @@ void scene::surface_plane(int xmin,int xmax,int ymin,int ymax,int Nu,int Nv){
                 kz = z(vec2(ku,kv))/3;
             }
             mesh_surface.add_vertex( {ku,kv,kz} );
-            mesh_surface.add_texture_coord(); // mettre les texture a la bonne coordonné (0,0) pour le coin a gauche de notre image
+            mesh_surface.add_texture_coord({(kv-ymin)/(ymax-ymin),(ku-xmin)/(xmax-xmin)}); // mettre les texture a la bonne coordonné (0,0) pour le coin a gauche de notre image
             //mesh_surface.add_color( {ku,kv,0.8} );
         }
     }
@@ -139,7 +139,7 @@ void scene::draw_scene()
 
     //Set Uniform data to GPU
     glUniformMatrix4fv(get_uni_loc(shader_program_id,"camera_modelview"),1,false,cam.modelview.pointer());     PRINT_OPENGL_ERROR();
-    glUniformMatrix4fv(get_uni_loc(shader_program_idgrass,"camera_projection"),1,false,cam.projection.pointer());   PRINT_OPENGL_ERROR();
+    glUniformMatrix4fv(get_uni_loc(shader_program_id,"camera_projection"),1,false,cam.projection.pointer());   PRINT_OPENGL_ERROR();
     glUniformMatrix4fv(get_uni_loc(shader_program_id,"normal_matrix"),1,false,cam.normal.pointer());           PRINT_OPENGL_ERROR();
 
 
@@ -147,9 +147,10 @@ void scene::draw_scene()
     glBindTexture(GL_TEXTURE_2D,texture_dinosaur); PRINT_OPENGL_ERROR();
     mesh_dinosaur_opengl.draw();
 
-    surface_plane(0,1,0,1,17,17);
+    
 
     glBindTexture(GL_TEXTURE_2D,texture_herbe); PRINT_OPENGL_ERROR();
+    surface_plane(0,1,0,1,17,17);
     mesh_surface_opengl.draw();
 
     glBindTexture(GL_TEXTURE_2D,texture_default);  PRINT_OPENGL_ERROR();
