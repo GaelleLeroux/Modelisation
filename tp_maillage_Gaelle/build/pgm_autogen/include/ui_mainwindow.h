@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.15.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,13 +10,10 @@
 #define UI_MAINWINDOW_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
@@ -44,7 +41,7 @@ public:
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
-            MainWindow->setObjectName(QStringLiteral("MainWindow"));
+            MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->resize(902, 509);
         QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
         sizePolicy.setHorizontalStretch(0);
@@ -52,16 +49,16 @@ public:
         sizePolicy.setHeightForWidth(MainWindow->sizePolicy().hasHeightForWidth());
         MainWindow->setSizePolicy(sizePolicy);
         centralwidget = new QWidget(MainWindow);
-        centralwidget->setObjectName(QStringLiteral("centralwidget"));
+        centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         sizePolicy.setHeightForWidth(centralwidget->sizePolicy().hasHeightForWidth());
         centralwidget->setSizePolicy(sizePolicy);
         horizontalLayout = new QHBoxLayout(centralwidget);
-        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         gridLayout = new QGridLayout();
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setSizeConstraint(QLayout::SetFixedSize);
         wireframe = new QCheckBox(centralwidget);
-        wireframe->setObjectName(QStringLiteral("wireframe"));
+        wireframe->setObjectName(QString::fromUtf8("wireframe"));
         QSizePolicy sizePolicy1(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
@@ -72,7 +69,7 @@ public:
         gridLayout->addWidget(wireframe, 0, 0, 1, 1);
 
         draw = new QPushButton(centralwidget);
-        draw->setObjectName(QStringLiteral("draw"));
+        draw->setObjectName(QString::fromUtf8("draw"));
         sizePolicy1.setHeightForWidth(draw->sizePolicy().hasHeightForWidth());
         draw->setSizePolicy(sizePolicy1);
         draw->setMinimumSize(QSize(150, 0));
@@ -80,7 +77,7 @@ public:
         gridLayout->addWidget(draw, 1, 0, 1, 1);
 
         quit = new QPushButton(centralwidget);
-        quit->setObjectName(QStringLiteral("quit"));
+        quit->setObjectName(QString::fromUtf8("quit"));
         sizePolicy1.setHeightForWidth(quit->sizePolicy().hasHeightForWidth());
         quit->setSizePolicy(sizePolicy1);
         quit->setMinimumSize(QSize(150, 0));
@@ -91,21 +88,21 @@ public:
         horizontalLayout->addLayout(gridLayout);
 
         layout_scene = new QVBoxLayout();
-        layout_scene->setObjectName(QStringLiteral("layout_scene"));
+        layout_scene->setObjectName(QString::fromUtf8("layout_scene"));
         layout_scene->setSizeConstraint(QLayout::SetDefaultConstraint);
 
         horizontalLayout->addLayout(layout_scene);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
-        menubar->setObjectName(QStringLiteral("menubar"));
+        menubar->setObjectName(QString::fromUtf8("menubar"));
         menubar->setGeometry(QRect(0, 0, 902, 24));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
-        statusbar->setObjectName(QStringLiteral("statusbar"));
+        statusbar->setObjectName(QString::fromUtf8("statusbar"));
         MainWindow->setStatusBar(statusbar);
         toolBar = new QToolBar(MainWindow);
-        toolBar->setObjectName(QStringLiteral("toolBar"));
+        toolBar->setObjectName(QString::fromUtf8("toolBar"));
         MainWindow->addToolBar(Qt::TopToolBarArea, toolBar);
 
         retranslateUi(MainWindow);
@@ -115,11 +112,11 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", Q_NULLPTR));
-        wireframe->setText(QApplication::translate("MainWindow", "Wireframe", Q_NULLPTR));
-        draw->setText(QApplication::translate("MainWindow", "Draw", Q_NULLPTR));
-        quit->setText(QApplication::translate("MainWindow", "Quit", Q_NULLPTR));
-        toolBar->setWindowTitle(QApplication::translate("MainWindow", "toolBar", Q_NULLPTR));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        wireframe->setText(QCoreApplication::translate("MainWindow", "Wireframe", nullptr));
+        draw->setText(QCoreApplication::translate("MainWindow", "Draw", nullptr));
+        quit->setText(QCoreApplication::translate("MainWindow", "Quit", nullptr));
+        toolBar->setWindowTitle(QCoreApplication::translate("MainWindow", "toolBar", nullptr));
     } // retranslateUi
 
 };
