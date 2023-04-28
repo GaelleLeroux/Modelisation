@@ -33,8 +33,6 @@ void scene::load_scene()
     // OBJ Mesh                                //
     //*****************************************//
     texture_dinosaur=load_texture_file("data/stegosaurus.jpg");
-    texture_sol=load_texture_file("data/herbe.jpg");
-
     mesh_dinosaur=load_mesh_file("data/stegosaurus.obj");
     mesh_dinosaur.transform_apply_auto_scale_and_center();
     mesh_dinosaur_opengl.fill_vbo(mesh_dinosaur);
@@ -78,7 +76,7 @@ void scene::load_scene()
 
 
 void scene::surface_plane(int xmin,int xmax,int ymin,int ymax,int Nu,int Nv){
-    float pas_x = static_cast<float>(xmax-xmin)/Nu;
+    float pas_x = static_cast<float>(xmax-xmin)/(Nu-1);
     float pas_y = static_cast<float>(ymax-ymin)/Nv;
     
     auto z= perlin();
@@ -92,8 +90,9 @@ void scene::surface_plane(int xmin,int xmax,int ymin,int ymax,int Nu,int Nv){
             else{
                 kz= z(vec2(ku, kv))/3;
             }
-            mesh_surface.add_vertex( {ku,kv,kz} );  
-            mesh_surface.add_color( {ku,kv,0.8} );
+            mesh_surface.add_vertex( {ku,kv,kz} );
+            //mesh_surface.add_texture_coord( {ku,kv,kz} )
+            //mesh_surface.add_color( {ku,kv,0.8} );
             
         }
     }
@@ -104,6 +103,7 @@ void scene::surface_plane(int xmin,int xmax,int ymin,int ymax,int Nu,int Nv){
             mesh_surface.add_triangle_index({k,k+Nv,k+Nv+1});
         }
     }
+    texture_sol = load_texture_file("data/herbe.jpg");
 
     mesh_surface.fill_empty_field_by_default();
     mesh_surface_opengl.fill_vbo(mesh_surface);
@@ -131,11 +131,12 @@ void scene::draw_scene()
 
     surface_plane(0,1,0,1,17,17);
     glBindTexture(GL_TEXTURE_2D,texture_sol); PRINT_OPENGL_ERROR();
+    mesh_surface_opengl.draw();
 
     glBindTexture(GL_TEXTURE_2D,texture_default);  PRINT_OPENGL_ERROR();
     mesh_camel_opengl.draw();
     mesh_ground_opengl.draw();
-    mesh_surface_opengl.draw();
+    
 
     
 }
