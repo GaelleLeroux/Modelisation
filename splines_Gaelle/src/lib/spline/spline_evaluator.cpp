@@ -34,29 +34,55 @@ float spline_evaluator::operator()(float const u,float const v) const
     // Ici il faut coder S(u,v) = fonction(u,v,P),
     //  avec P etant les coordonnees x (resp. y,z) du polygone de controle
 
-    float S = P(0,0)*(1-u)*(1-v) +
-              P(0,3)*(1-u)*   v  +
-              P(3,0)*   u *(1-v) +
-              P(3,3)*   u *   v  ; // cette ligne est a modifier
+    //mat4 M(-1,3,-3,1, 3,-6,3,0, -3,3,0,0, 1,0,0,0) ;
+    mat4 m(-1,3,-3,1, 3,-6,0,4, -3,3,3,1, 1,0,0,0) ;
+    mat4 M = m/6;
+
+    mat1x4 U1T (u*u*u,u*u,u,1);
+
+    mat4x1 V1 (v*v*v,v*v,v,1);
+
+    // float S = P(0,0)*(1-u)*(1-v) +
+    //           P(0,3)*(1-u)*   v  +
+    //           P(3,0)*   u *(1-v) +
+    //           P(3,3)*   u *   v  ; // cette ligne est a modifier
+
+    float S = U1T*transposed(M)*P*M*V1;
+
+    
 
     return S;
 }
 
 float spline_evaluator::diff_u(float const u,float const v) const
 {
+    //mat4 M(-1,3,-3,1, 3,-6,3,0, -3,3,0,0, 1,0,0,0) ;
+    mat4 m(-1,3,-3,1, 3,-6,0,4, -3,3,3,1, 1,0,0,0) ;
+    mat4 M = m/6;
+
+    mat1x4 U1T (3*u*u,2*u,1,0);
+
+    mat4x1 V1 (v*v*v,v*v,v,1);
     // Ici il faut coder dS/du(u,v) = fonction(u,v,P),
     //  avec P etant les coordonnees x (resp. y,z) du polygone de controle
 
-    float dS = u+v; // cette ligne (code arbitrairement faux) est a modifier
+    float dS = U1T*transposed(M)*P*M*V1;
     return dS;
 }
 
 float spline_evaluator::diff_v(float const u,float const v) const
 {
-    // Ici il faut coder dS/dv(u,v) = fonction(u,v,P),
+    //mat4 M(-1,3,-3,1, 3,-6,3,0, -3,3,0,0, 1,0,0,0) ;
+    mat4 m(-1,3,-3,1, 3,-6,0,4, -3,3,3,1, 1,0,0,0) ;
+    mat4 M = m/6;
+
+    mat1x4 U1T (u*u*u,u*u,u,1);
+
+    mat4x1 V1 (3*v*v,2*v,1,0);
+    // Ici il faut coder dS/du(u,v) = fonction(u,v,P),
     //  avec P etant les coordonnees x (resp. y,z) du polygone de controle
 
-    float dS = u+v; // cette ligne (code arbitrairement faux) est a modifier
+    float dS = U1T*transposed(M)*P*M*V1;
     return dS;
 }
 

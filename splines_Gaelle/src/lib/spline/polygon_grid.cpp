@@ -20,6 +20,7 @@
 
 #include "polygon_patch.hpp"
 #include "../common/error_handling.hpp"
+#include "../common/math_base.hpp"
 
 #include <fstream>
 
@@ -322,6 +323,40 @@ void polygon_grid::set_planar_grid(int const size_u_param,int const size_v_param
             float const u = static_cast<float>(ku)/(size_u_param-1);
 
             S(ku,kv) = {u,v,0.0f};
+        }
+    }
+}
+
+void polygon_grid::set_cylindrique_grid(int const size_u_param,int const size_v_param)
+{
+    resize(size_u_param,size_v_param);
+
+     auto& S=*this;
+    for(int kv=0;kv<size_v_param;++kv)
+    {
+        float const v = static_cast<float>(kv)/(size_v_param-3);
+        for(int ku=0;ku<size_u_param;++ku)
+        {
+            float const u = static_cast<float>(ku)/(size_u_param-3);
+
+            S(ku,kv) = {cos(2*M_PI*u),sin(2*M_PI*v),0.0f};
+        }
+    }
+}
+
+void polygon_grid::set_sphere_grid(int const size_u_param,int const size_v_param)
+{
+    resize(size_u_param,size_v_param);
+
+     auto& S=*this;
+    for(int kv=0;kv<size_v_param;++kv)
+    {
+        float const v = static_cast<float>(kv)/(size_v_param-3);
+        for(int ku=0;ku<size_u_param;++ku)
+        {
+            float const u = static_cast<float>(ku)/(size_u_param-3);
+
+            S(ku,kv) = {cos(2*M_PI*u)*sin(M_PI*v),sin(2*M_PI*u)*sin(M_PI*v),cos(M_PI*v)};
         }
     }
 }

@@ -81,6 +81,10 @@ public:
 
     /** Initialise the control polygon to be a (x,y) plane with z=0 */
     void set_planar_grid(int size_u_param,int size_v_param);
+    
+    void set_cylindrique_grid(int size_u_param,int size_v_param);
+
+    void set_sphere_grid(int size_u_param,int size_v_param);
 
     /** Load the control polygon from a given file */
     void load_file(std::string const& filename);

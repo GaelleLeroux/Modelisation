@@ -28,6 +28,12 @@ void scene::load_scene()
     control_polygon(1,1).z() = 0.7f; control_polygon(2,1).z() = 0.7f;
     control_polygon(1,2).z() = 0.7f; control_polygon(2,2).z() = 0.7f;
 
+    // auto taille_u = control_polygon.size_u();
+    // auto taille_v = control_polygon.size_v();
+    auto taille_u = 20;
+    auto taille_v = 20;
+    // control_polygon.set_cylindrique_grid(taille_u,taille_v);
+    control_polygon.set_sphere_grid(taille_u,taille_v);
     //create the spline surface
     spline=spline_mesh_surface(control_polygon.size_patch_u(),
                                control_polygon.size_patch_v(),

@@ -61,7 +61,7 @@ vec3 spline_patch::normal(float const u,float const v) const
 
     //Ici il faut implementer le calcul de la normal
     // n = fonction(u,v)
-    return vec3(0.0f,0.0*(u+v),1.0f); //cette ligne est fausse
+    return vec3(normalized(cross(diff_u(u,v),diff_v(u,v)))); //cette ligne est fausse
 }
 
 }
