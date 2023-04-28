@@ -39,6 +39,8 @@ public:
 
     void surface_plane(int xmin,int xmax,int ymin,int ymax,int Nu,int Nv);
 
+    void tour(int N, int r, float h);
+
 
 private:
 
@@ -69,6 +71,10 @@ private:
     cpe::mesh mesh_surface;
     cpe::mesh_opengl mesh_surface_opengl;
     GLuint texture_herbe;
+
+    cpe::mesh mesh_tour;
+    cpe::mesh_opengl mesh_tour_opengl;
+    GLuint texture_gris;
 
 
 

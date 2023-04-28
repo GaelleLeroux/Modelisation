@@ -93,6 +93,45 @@ void scene::load_scene()
     
 }
 
+void scene::tour(int N,int r, float h){
+    float angle = 0;
+    if (N%2!=0) {
+        return;
+    }
+    else{
+        float angle = 0.0;
+        float x_cercle = 0.0;
+        float y_cercle = 0.0;
+        for(int i = 0; i < N ; i++)
+        {
+            angle = (i*360/(N/2)) * M_PI / 180;
+            x_cercle = 0 + r * cos(angle);
+            y_cercle = 0 + r * sin(angle);
+            mesh_tour.add_vertex( {x_cercle,y_cercle,0} );
+            mesh_tour.add_vertex( {x_cercle,y_cercle,h} );
+        }
+
+        for (int i=0;i<N;i=i+2){
+            if (i==N-2){
+                mesh_tour.add_triangle_index({i,i+1,0});
+                mesh_tour.add_triangle_index({i+1,0,1});
+            }
+            else {
+                mesh_tour.add_triangle_index({i,i+1,i+2});
+                mesh_tour.add_triangle_index({i+1,i+2,i+3});
+            }
+        }
+        //texture_gris = load_texture_file("data/gris.jpg");
+        //texture_gris = load_texture_file("data/gris.jpg");
+
+        mesh_tour.fill_empty_field_by_default();
+        mesh_tour.fill_color( {1.0,0.0,0.8} );
+
+        mesh_tour_opengl.fill_vbo(mesh_tour);
+
+    }
+}
+
 void scene::surface_plane(int xmin,int xmax,int ymin,int ymax,int Nu,int Nv){
     float pas_x = static_cast<float>(xmax-xmin)/Nu;// diviser par nu-1 pour arriver à 1
     float pas_y = static_cast<float>(ymax-ymin)/Nv;
@@ -103,12 +142,15 @@ void scene::surface_plane(int xmin,int xmax,int ymin,int ymax,int Nu,int Nv){
         for (float ku=xmin; ku<Nu*pas_x; ku=ku+pas_x ){
             if (kv>0.4 && kv<0.6 && ku>0.1 && ku<0.9){
                 kz = 0.2;
+                mesh_surface.add_vertex( {ku,kv,kz} );
+                mesh_surface.add_texture_coord({(kv-ymin)/(ymax-ymin),(ku-xmin)/(xmax-xmin)}); // mettre les texture a la bonne coordonné (0,0) pour le coin a gauche de notre image
             }
             else{
                 kz = z(vec2(ku,kv))/3;
+                mesh_surface.add_vertex( {ku,kv,kz} );
+                mesh_surface.add_texture_coord({(kv-ymin)/(ymax-ymin),(ku-xmin)/(xmax-xmin)}); // mettre les texture a la bonne coordonné (0,0) pour le coin a gauche de notre image
             }
-            mesh_surface.add_vertex( {ku,kv,kz} );
-            mesh_surface.add_texture_coord({(kv-ymin)/(ymax-ymin),(ku-xmin)/(xmax-xmin)}); // mettre les texture a la bonne coordonné (0,0) pour le coin a gauche de notre image
+            
             //mesh_surface.add_color( {ku,kv,0.8} );
         }
     }
@@ -121,6 +163,7 @@ void scene::surface_plane(int xmin,int xmax,int ymin,int ymax,int Nu,int Nv){
         }
     }
     texture_herbe = load_texture_file("data/herbe.jpg");
+    //texture_gris = load_texture_file("data/gris.jpg");
 
     mesh_surface.fill_empty_field_by_default();
     //mesh_surface.fill_color( {1.0,0.0,0.8} );
@@ -150,8 +193,12 @@ void scene::draw_scene()
     
 
     glBindTexture(GL_TEXTURE_2D,texture_herbe); PRINT_OPENGL_ERROR();
+    //glBindTexture(GL_TEXTURE_2D,texture_gris); PRINT_OPENGL_ERROR();
     surface_plane(0,1,0,1,17,17);
     mesh_surface_opengl.draw();
+
+    tour(18,1,0.5);
+    mesh_tour_opengl.draw();
 
     glBindTexture(GL_TEXTURE_2D,texture_default);  PRINT_OPENGL_ERROR();
     mesh_camel_opengl.draw();
