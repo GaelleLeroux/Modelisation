@@ -36,7 +36,7 @@ float max(float x,float y){
 }
 
 vec3 colormap(float x) {
-    return vec3(1.0, min(max(x,0.f),1.f), min(max(1.f-x,0.f),1.f));
+    return vec3(1.0, std::min(std::max(x,0.f),1.f), std::min(std::max(1.f-x,0.f),1.f));
 }
 
 
@@ -55,6 +55,10 @@ void scene::build_surface_cylindrique()
     float max_c=0;
 
     float const r = 0.2f;
+
+    std::vector<float> liste_lambda;
+    liste_lambda.resize(Nu*Nv);
+
     for(int ku=0 ; ku<Nu ; ++ku)
     {
         for(int kv=0 ; kv<Nv ; ++kv)
@@ -72,16 +76,16 @@ void scene::build_surface_cylindrique()
 
             surface.vertex(ku,kv) = {x,y,z};
             vec2 lambda = build_courbure_cylindrique(u,v,r);
+
             float Ks = lambda.x()*lambda.y();
             float Hs = 0.5* (lambda.x()+lambda.y());
            
+            liste_lambda[ku*Nv+kv] = Hs;
             // min_c = min(min_c,Ks);
             // max_c = max(max_c,Ks);
 
             min_c = min(min_c,Hs);
             max_c = max(max_c,Hs);
-            // std::cout<<"x: "<<lambda.x()<< " y: "<<lambda.y()<<std::endl;
-            // surface.color(ku,kv) = {1.f,v_n,1.0f};
         }
     }
 
@@ -89,24 +93,9 @@ void scene::build_surface_cylindrique()
     {
         for(int kv=0 ; kv<Nv ; ++kv)
         {
-            float const u_n = static_cast<float>(ku)/(Nu-1);
-            float const v_n = static_cast<float>(kv)/(Nv-1);
-
-            float const u = u_min + u_n * (u_max-u_min);
-            float const v = v_min + v_n * (v_max-v_min);
-
-
-            float const x = r*cos(u);
-            float const y = r*sin(u);
-            float const z = v;   
-
-            vec2 lambda = build_courbure_cylindrique(u,v,r);
-            float Ks = lambda.x()*lambda.y();
-            float Hs = 0.5* (lambda.x()+lambda.y());
             vec3 couleur;
             if (min_c!=max_c){
-                //couleur = colormap((Ks-min_c)/(max_c-min_c));
-                couleur = colormap((Hs-min_c)/(max_c-min_c));
+                couleur = colormap((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
             }
             else {
                 couleur = colormap(0);
