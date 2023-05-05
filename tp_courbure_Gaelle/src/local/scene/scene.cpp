@@ -75,6 +75,7 @@ void scene::build_surface_cylindrique()
             float const z = v;   
 
             surface.vertex(ku,kv) = {x,y,z};
+
             vec2 lambda = build_courbure_cylindrique(u,v,r);
 
             float Ks = lambda.x()*lambda.y();
@@ -93,6 +94,7 @@ void scene::build_surface_cylindrique()
     {
         for(int kv=0 ; kv<Nv ; ++kv)
         {
+            // std::cout<<surface.vertex(ku,kv).x()<<std::endl;
             vec3 couleur;
             if (min_c!=max_c){
                 couleur = colormap((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
