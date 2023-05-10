@@ -1,13 +1,7 @@
 CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.o: \
-<<<<<<< HEAD
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_io.cpp \
  /usr/include/stdc-predef.h \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_io.hpp \
-=======
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_io.cpp \
- /usr/include/stdc-predef.h \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_io.hpp \
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -134,15 +128,9 @@ CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.o: \
  /usr/include/c++/11/bits/functional_hash.h \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/basic_string.tcc \
-<<<<<<< HEAD
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_basic.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/../3d/vec3.hpp \
-=======
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_basic.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/../3d/vec3.hpp \
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
  /usr/include/c++/11/ostream /usr/include/c++/11/ios \
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
@@ -163,18 +151,12 @@ CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc \
-<<<<<<< HEAD
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/../3d/vec2.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/triangle_index.hpp \
-=======
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/../3d/vec2.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/triangle_index.hpp \
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
-<<<<<<< HEAD
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/../common/error_handling.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/../common/exception_cpe.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/istream \
@@ -182,15 +164,6 @@ CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.o: \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/../common/backtrace.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/format/mesh_io_obj.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/format/mesh_io_off.hpp \
-=======
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/../common/error_handling.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/../common/exception_cpe.hpp \
- /usr/include/c++/11/iostream /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/../common/backtrace.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/format/mesh_io_obj.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/format/mesh_io_off.hpp \
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
  /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \

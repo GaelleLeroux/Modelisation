@@ -85,15 +85,14 @@ void scene::build_surface_cylindrique()
 
             float const u = u_min + u_n * (u_max-u_min);
             float const v = v_min + v_n * (v_max-v_min);
+            
+            float const x = r*cos(u);
+            float const y = r*sin(u);
+            float const z = v;   
 
-
-            // float const x = r*cos(u);
-            // float const y = r*sin(u);
-            // float const z = v;   
-
-            float const x = a*cos(u)*cos(u)*cos(u)*cos(v)*cos(v)*cos(v);
-            float const y = b*sin(u)*sin(u)*sin(u)*cos(v)*cos(v)*cos(v);
-            float const z = a*sin(v)*sin(v)*sin(v);   
+            // float const x = a*cos(u)*cos(u)*cos(u)*cos(v)*cos(v)*cos(v);
+            // float const y = b*sin(u)*sin(u)*sin(u)*cos(v)*cos(v)*cos(v);
+            // float const z = a*sin(v)*sin(v)*sin(v);   
 
             // float const x = u*cos(v);
             // float const y = u*sin(v);
@@ -117,9 +116,9 @@ void scene::build_surface_cylindrique()
             float const u = u_min + u_n * (u_max-u_min);
             float const v = v_min + v_n * (v_max-v_min);
 
-            // vec2 lambda = build_courbure_cylindrique(u,v,r);
-            // vec2 lambda = build_courbure_cylindrique_discrete(ku,kv,r,Nu,Nv);
-            vec2 lambda = build_courbure_chapeau(u,v,r,a,b);
+            vec2 lambda = build_courbure_cylindrique(u,v,r);
+            //vec2 lambda = build_courbure_cylindrique_discrete(ku,kv,r,Nu,Nv);
+            //vec2 lambda = build_courbure_chapeau(u,v,r,a,b);
 
             float Ks = lambda.x()*lambda.y();
             float Hs = 0.5* (lambda.x()+lambda.y());

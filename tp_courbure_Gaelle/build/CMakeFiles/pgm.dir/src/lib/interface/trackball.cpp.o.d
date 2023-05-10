@@ -1,13 +1,7 @@
 CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.o: \
-<<<<<<< HEAD
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/trackball.cpp \
  /usr/include/stdc-predef.h \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/../3d/vec3.hpp \
-=======
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/trackball.cpp \
- /usr/include/stdc-predef.h \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/../3d/vec3.hpp \
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
  /usr/include/c++/11/ostream /usr/include/c++/11/ios \
  /usr/include/c++/11/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -151,17 +145,10 @@ CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc \
-<<<<<<< HEAD
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/trackball.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/../3d/quaternion.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/../3d/vec4.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/../common/math_base.hpp \
-=======
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/trackball.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/../3d/quaternion.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/../3d/vec4.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/../common/math_base.hpp \
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \

@@ -1,13 +1,7 @@
 CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o: \
-<<<<<<< HEAD
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/myWidgetGL.cpp \
  /usr/include/stdc-predef.h \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/myWidgetGL.hpp \
-=======
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/myWidgetGL.cpp \
- /usr/include/stdc-predef.h \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/myWidgetGL.hpp \
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
  /usr/include/GL/glew.h /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -298,17 +292,10 @@ CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
-<<<<<<< HEAD
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/interface/navigator_tool.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/interface/trackball.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/interface/../3d/quaternion.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/interface/../3d/vec4.hpp \
-=======
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/interface/navigator_tool.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/interface/trackball.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/interface/../3d/quaternion.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/interface/../3d/vec4.hpp \
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
  /usr/include/c++/11/ostream /usr/include/c++/11/ios \
  /usr/include/c++/11/bits/basic_ios.h \
  /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
@@ -318,7 +305,6 @@ CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc \
-<<<<<<< HEAD
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/interface/../3d/vec3.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/interface/../3d/mat3.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/mesh/mesh.hpp \
@@ -338,27 +324,6 @@ CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o: \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/common/exception_cpe.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/common/backtrace.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/common/math_base.hpp \
-=======
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/interface/../3d/vec3.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/interface/../3d/mat3.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/mesh/mesh.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/mesh/mesh_basic.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/mesh/../3d/vec2.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/mesh/triangle_index.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/opengl/mesh_opengl.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/opengl/axes_helper.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/interface/camera_matrices.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/interface/../3d/mat4.hpp \
- /usr/include/c++/11/iostream /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../scene/scene.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../scene/../../lib/mesh/mesh_parametric.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/opengl/glutils.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/common/error_handling.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/common/exception_cpe.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/common/backtrace.hpp \
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/common/math_base.hpp \
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -369,8 +334,4 @@ CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-<<<<<<< HEAD
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/common/file_tools.hpp
-=======
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/../../lib/common/file_tools.hpp
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891

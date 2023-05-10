@@ -53,17 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build
-=======
-CMAKE_SOURCE_DIR = /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pgm.dir/depend.make
@@ -79,7 +72,6 @@ include CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.o: pgm_autogen/mocs_compilation.cpp
 CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.o -MF CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/pgm_autogen/mocs_compilation.cpp
 
@@ -90,23 +82,10 @@ CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.i: cmake_force
 CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/pgm_autogen/mocs_compilation.cpp -o CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.o -MF CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/pgm_autogen/mocs_compilation.cpp
-
-CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/pgm_autogen/mocs_compilation.cpp > CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.i
-
-CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/pgm_autogen/mocs_compilation.cpp -o CMakeFiles/pgm.dir/pgm_autogen/mocs_compilation.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.o: ../src/external/perlin/simplexnoise1234.cpp
 CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.o -MF CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.o.d -o CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/external/perlin/simplexnoise1234.cpp
 
@@ -117,23 +96,10 @@ CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/external/perlin/simplexnoise1234.cpp -o CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.o -MF CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.o.d -o CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/external/perlin/simplexnoise1234.cpp
-
-CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/external/perlin/simplexnoise1234.cpp > CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.i
-
-CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/external/perlin/simplexnoise1234.cpp -o CMakeFiles/pgm.dir/src/external/perlin/simplexnoise1234.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.o: ../src/lib/3d/mat1x4.cpp
 CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat1x4.cpp
 
@@ -144,23 +110,10 @@ CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat1x4.cpp -o CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat1x4.cpp
-
-CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat1x4.cpp > CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat1x4.cpp -o CMakeFiles/pgm.dir/src/lib/3d/mat1x4.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.o: ../src/lib/3d/mat2.cpp
 CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat2.cpp
 
@@ -171,23 +124,10 @@ CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat2.cpp -o CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat2.cpp
-
-CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat2.cpp > CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat2.cpp -o CMakeFiles/pgm.dir/src/lib/3d/mat2.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.o: ../src/lib/3d/mat3.cpp
 CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat3.cpp
 
@@ -198,23 +138,10 @@ CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat3.cpp -o CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat3.cpp
-
-CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat3.cpp > CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat3.cpp -o CMakeFiles/pgm.dir/src/lib/3d/mat3.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.o: ../src/lib/3d/mat4.cpp
 CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat4.cpp
 
@@ -225,23 +152,10 @@ CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat4.cpp -o CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat4.cpp
-
-CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat4.cpp > CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat4.cpp -o CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.o: ../src/lib/3d/mat4x1.cpp
 CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat4x1.cpp
 
@@ -252,23 +166,10 @@ CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat4x1.cpp -o CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat4x1.cpp
-
-CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat4x1.cpp > CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat4x1.cpp -o CMakeFiles/pgm.dir/src/lib/3d/mat4x1.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.o: ../src/lib/3d/quaternion.cpp
 CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/quaternion.cpp
 
@@ -279,23 +180,10 @@ CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/quaternion.cpp -o CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/quaternion.cpp
-
-CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/quaternion.cpp > CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/quaternion.cpp -o CMakeFiles/pgm.dir/src/lib/3d/quaternion.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.o: ../src/lib/3d/vec2.cpp
 CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec2.cpp
 
@@ -306,23 +194,10 @@ CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec2.cpp -o CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec2.cpp
-
-CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec2.cpp > CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec2.cpp -o CMakeFiles/pgm.dir/src/lib/3d/vec2.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.o: ../src/lib/3d/vec3.cpp
 CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec3.cpp
 
@@ -333,23 +208,10 @@ CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec3.cpp -o CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec3.cpp
-
-CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec3.cpp > CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec3.cpp -o CMakeFiles/pgm.dir/src/lib/3d/vec3.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.o: ../src/lib/3d/vec4.cpp
 CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec4.cpp
 
@@ -360,23 +222,10 @@ CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec4.cpp -o CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.o -MF CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec4.cpp
-
-CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec4.cpp > CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec4.cpp -o CMakeFiles/pgm.dir/src/lib/3d/vec4.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.o: ../src/lib/common/backtrace.cpp
 CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.o -MF CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/common/backtrace.cpp
 
@@ -387,23 +236,10 @@ CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/common/backtrace.cpp -o CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.o -MF CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/common/backtrace.cpp
-
-CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/common/backtrace.cpp > CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/common/backtrace.cpp -o CMakeFiles/pgm.dir/src/lib/common/backtrace.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.o: ../src/lib/common/exception_cpe.cpp
 CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.o -MF CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/common/exception_cpe.cpp
 
@@ -414,23 +250,10 @@ CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/common/exception_cpe.cpp -o CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.o -MF CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/common/exception_cpe.cpp
-
-CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/common/exception_cpe.cpp > CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/common/exception_cpe.cpp -o CMakeFiles/pgm.dir/src/lib/common/exception_cpe.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.o: ../src/lib/common/file_tools.cpp
 CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.o -MF CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/common/file_tools.cpp
 
@@ -441,23 +264,10 @@ CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/common/file_tools.cpp -o CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.o -MF CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/common/file_tools.cpp
-
-CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/common/file_tools.cpp > CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/common/file_tools.cpp -o CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.o: ../src/lib/interface/application_qt.cpp
 CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.o -MF CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/application_qt.cpp
 
@@ -468,23 +278,10 @@ CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/application_qt.cpp -o CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.o -MF CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/application_qt.cpp
-
-CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/application_qt.cpp > CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/application_qt.cpp -o CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.o: ../src/lib/interface/navigator_tool.cpp
 CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.o -MF CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/navigator_tool.cpp
 
@@ -495,23 +292,10 @@ CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/navigator_tool.cpp -o CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.o -MF CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/navigator_tool.cpp
-
-CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/navigator_tool.cpp > CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/navigator_tool.cpp -o CMakeFiles/pgm.dir/src/lib/interface/navigator_tool.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.o: ../src/lib/interface/selected_index.cpp
 CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.o -MF CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/selected_index.cpp
 
@@ -522,23 +306,10 @@ CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/selected_index.cpp -o CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.o -MF CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/selected_index.cpp
-
-CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/selected_index.cpp > CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/selected_index.cpp -o CMakeFiles/pgm.dir/src/lib/interface/selected_index.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.o: ../src/lib/interface/trackball.cpp
 CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.o -MF CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/trackball.cpp
 
@@ -549,23 +320,10 @@ CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/trackball.cpp -o CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.o -MF CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/trackball.cpp
-
-CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/trackball.cpp > CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/trackball.cpp -o CMakeFiles/pgm.dir/src/lib/interface/trackball.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.o: ../src/lib/intersection/intersection.cpp
 CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.o -MF CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/intersection/intersection.cpp
 
@@ -576,23 +334,10 @@ CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/intersection/intersection.cpp -o CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.o -MF CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/intersection/intersection.cpp
-
-CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/intersection/intersection.cpp > CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/intersection/intersection.cpp -o CMakeFiles/pgm.dir/src/lib/intersection/intersection.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.o: ../src/lib/mesh/format/mesh_io_obj.cpp
 CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.o -MF CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/format/mesh_io_obj.cpp
 
@@ -603,23 +348,10 @@ CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/format/mesh_io_obj.cpp -o CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.o -MF CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/format/mesh_io_obj.cpp
-
-CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/format/mesh_io_obj.cpp > CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/format/mesh_io_obj.cpp -o CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_obj.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.o: ../src/lib/mesh/format/mesh_io_off.cpp
 CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.o -MF CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/format/mesh_io_off.cpp
 
@@ -630,23 +362,10 @@ CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/format/mesh_io_off.cpp -o CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.o -MF CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/format/mesh_io_off.cpp
-
-CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/format/mesh_io_off.cpp > CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/format/mesh_io_off.cpp -o CMakeFiles/pgm.dir/src/lib/mesh/format/mesh_io_off.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.o: ../src/lib/mesh/mesh.cpp
 CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.o -MF CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh.cpp
 
@@ -657,23 +376,10 @@ CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh.cpp -o CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.o -MF CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh.cpp
-
-CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh.cpp > CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh.cpp -o CMakeFiles/pgm.dir/src/lib/mesh/mesh.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.o: ../src/lib/mesh/mesh_basic.cpp
 CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.o -MF CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_basic.cpp
 
@@ -684,23 +390,10 @@ CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_basic.cpp -o CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.o -MF CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_basic.cpp
-
-CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_basic.cpp > CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_basic.cpp -o CMakeFiles/pgm.dir/src/lib/mesh/mesh_basic.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.o: ../src/lib/mesh/mesh_io.cpp
 CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.o -MF CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_io.cpp
 
@@ -711,23 +404,10 @@ CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_io.cpp -o CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.o -MF CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_io.cpp
-
-CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_io.cpp > CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_io.cpp -o CMakeFiles/pgm.dir/src/lib/mesh/mesh_io.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.o: ../src/lib/mesh/mesh_parametric.cpp
 CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.o -MF CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_parametric.cpp
 
@@ -738,23 +418,10 @@ CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_parametric.cpp -o CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.o -MF CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_parametric.cpp
-
-CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_parametric.cpp > CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/mesh_parametric.cpp -o CMakeFiles/pgm.dir/src/lib/mesh/mesh_parametric.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.o: ../src/lib/mesh/triangle_index.cpp
 CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.o -MF CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/triangle_index.cpp
 
@@ -765,23 +432,10 @@ CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/mesh/triangle_index.cpp -o CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.o -MF CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/triangle_index.cpp
-
-CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/triangle_index.cpp > CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/mesh/triangle_index.cpp -o CMakeFiles/pgm.dir/src/lib/mesh/triangle_index.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.o: ../src/lib/opengl/axes_helper.cpp
 CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.o -MF CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/opengl/axes_helper.cpp
 
@@ -792,23 +446,10 @@ CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/opengl/axes_helper.cpp -o CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.o -MF CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/opengl/axes_helper.cpp
-
-CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/opengl/axes_helper.cpp > CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/opengl/axes_helper.cpp -o CMakeFiles/pgm.dir/src/lib/opengl/axes_helper.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.o: ../src/lib/opengl/glutils.cpp
 CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.o -MF CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/opengl/glutils.cpp
 
@@ -819,23 +460,10 @@ CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/opengl/glutils.cpp -o CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.o -MF CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/opengl/glutils.cpp
-
-CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/opengl/glutils.cpp > CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/opengl/glutils.cpp -o CMakeFiles/pgm.dir/src/lib/opengl/glutils.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.o: ../src/lib/opengl/line_opengl.cpp
 CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.o -MF CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/opengl/line_opengl.cpp
 
@@ -846,23 +474,10 @@ CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/opengl/line_opengl.cpp -o CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.o -MF CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/opengl/line_opengl.cpp
-
-CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/opengl/line_opengl.cpp > CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/opengl/line_opengl.cpp -o CMakeFiles/pgm.dir/src/lib/opengl/line_opengl.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.o: ../src/lib/opengl/mesh_opengl.cpp
 CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.o -MF CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/opengl/mesh_opengl.cpp
 
@@ -873,23 +488,10 @@ CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/opengl/mesh_opengl.cpp -o CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.o -MF CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/opengl/mesh_opengl.cpp
-
-CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/opengl/mesh_opengl.cpp > CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/opengl/mesh_opengl.cpp -o CMakeFiles/pgm.dir/src/lib/opengl/mesh_opengl.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.o: ../src/lib/perlin/perlin.cpp
 CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.o -MF CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/perlin/perlin.cpp
 
@@ -900,23 +502,10 @@ CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/perlin/perlin.cpp -o CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.o -MF CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.o.d -o CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/perlin/perlin.cpp
-
-CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/perlin/perlin.cpp > CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.i
-
-CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/perlin/perlin.cpp -o CMakeFiles/pgm.dir/src/lib/perlin/perlin.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/local/interface/main.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/local/interface/main.cpp.o: ../src/local/interface/main.cpp
 CMakeFiles/pgm.dir/src/local/interface/main.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/pgm.dir/src/local/interface/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/local/interface/main.cpp.o -MF CMakeFiles/pgm.dir/src/local/interface/main.cpp.o.d -o CMakeFiles/pgm.dir/src/local/interface/main.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/main.cpp
 
@@ -927,23 +516,10 @@ CMakeFiles/pgm.dir/src/local/interface/main.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/local/interface/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/local/interface/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/main.cpp -o CMakeFiles/pgm.dir/src/local/interface/main.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/pgm.dir/src/local/interface/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/local/interface/main.cpp.o -MF CMakeFiles/pgm.dir/src/local/interface/main.cpp.o.d -o CMakeFiles/pgm.dir/src/local/interface/main.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/main.cpp
-
-CMakeFiles/pgm.dir/src/local/interface/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/local/interface/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/main.cpp > CMakeFiles/pgm.dir/src/local/interface/main.cpp.i
-
-CMakeFiles/pgm.dir/src/local/interface/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/local/interface/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/main.cpp -o CMakeFiles/pgm.dir/src/local/interface/main.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o: ../src/local/interface/myWidgetGL.cpp
 CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o -MF CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o.d -o CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/myWidgetGL.cpp
 
@@ -954,23 +530,10 @@ CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/myWidgetGL.cpp -o CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o -MF CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o.d -o CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/myWidgetGL.cpp
-
-CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/myWidgetGL.cpp > CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.i
-
-CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/myWidgetGL.cpp -o CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o: ../src/local/interface/myWindow.cpp
 CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o -MF CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o.d -o CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/myWindow.cpp
 
@@ -981,23 +544,10 @@ CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/interface/myWindow.cpp -o CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o -MF CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o.d -o CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/myWindow.cpp
-
-CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/myWindow.cpp > CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.i
-
-CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/interface/myWindow.cpp -o CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o: ../src/local/scene/scene.cpp
 CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o -MF CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o.d -o CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o -c /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/scene/scene.cpp
 
@@ -1008,18 +558,6 @@ CMakeFiles/pgm.dir/src/local/scene/scene.cpp.i: cmake_force
 CMakeFiles/pgm.dir/src/local/scene/scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/local/scene/scene.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/local/scene/scene.cpp -o CMakeFiles/pgm.dir/src/local/scene/scene.cpp.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o -MF CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o.d -o CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/scene/scene.cpp
-
-CMakeFiles/pgm.dir/src/local/scene/scene.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/local/scene/scene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/scene/scene.cpp > CMakeFiles/pgm.dir/src/local/scene/scene.cpp.i
-
-CMakeFiles/pgm.dir/src/local/scene/scene.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/local/scene/scene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/local/scene/scene.cpp -o CMakeFiles/pgm.dir/src/local/scene/scene.cpp.s
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 # Object files for target pgm
 pgm_OBJECTS = \
@@ -1106,11 +644,7 @@ pgm: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 pgm: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 pgm: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 pgm: CMakeFiles/pgm.dir/link.txt
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable pgm"
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable pgm"
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pgm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1122,10 +656,6 @@ CMakeFiles/pgm.dir/clean:
 .PHONY : CMakeFiles/pgm.dir/clean
 
 CMakeFiles/pgm.dir/depend:
-<<<<<<< HEAD
 	cd /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles/pgm.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles/pgm.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 .PHONY : CMakeFiles/pgm.dir/depend
 
