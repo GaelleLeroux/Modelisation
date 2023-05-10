@@ -41,8 +41,15 @@ float max(float x,float y){
     }
 }
 
+// colormap qu'on avait choisis de base
+// vec3 colormap(float x) {
+//     return vec3(1.0, std::min(std::max(x,0.f),1.f), std::min(std::max(1.f-x,0.f),1.f));
+// }
+
+// color map matlab automn
 vec3 colormap(float x) {
-    return vec3(1.0, std::min(std::max(x,0.f),1.f), std::min(std::max(1.f-x,0.f),1.f));
+    float g = std::min(std::max(x,0.f),1.f);
+    return vec3(1.0, g, 0.0);
 }
 
 
@@ -64,8 +71,8 @@ void scene::build_surface_cylindrique()
 
     std::vector<float> liste_lambda;
     liste_lambda.resize(Nu*Nv);
-    int a = 1;
-    int b = 1;
+    float const a = 1;
+    float const b = 1;
 
     
 
@@ -84,13 +91,18 @@ void scene::build_surface_cylindrique()
             // float const y = r*sin(u);
             // float const z = v;   
 
-            // float const x = a*cos(u)*cos(u)*cos(u)*cos(v)*cos(v)*cos(v);
-            // float const y = b*sin(u)*sin(u)*sin(u)*cos(v)*cos(v)*cos(v);
-            // float const z = a*sin(v)*sin(v)*sin(v);   
+            float const x = a*cos(u)*cos(u)*cos(u)*cos(v)*cos(v)*cos(v);
+            float const y = b*sin(u)*sin(u)*sin(u)*cos(v)*cos(v)*cos(v);
+            float const z = a*sin(v)*sin(v)*sin(v);   
 
-            float const x = u*cos(v);
-            float const y = u*sin(v);
-            float const z = u*cos(v)*cos(v)*cos(v);  
+            // float const x = u*cos(v);
+            // float const y = u*sin(v);
+            // float const z = u*cos(v)*cos(v)*cos(v);  
+
+            // float const x = 0.5*cos(u);
+            // float const y = 0.7*cos(v);
+            // float const z = 0.5*sin(u)+0.7*sin(v);  
+
 
             surface.vertex(ku,kv) = {x,y,z};
         }
@@ -106,7 +118,8 @@ void scene::build_surface_cylindrique()
             float const v = v_min + v_n * (v_max-v_min);
 
             // vec2 lambda = build_courbure_cylindrique(u,v,r);
-            vec2 lambda = build_courbure_cylindrique_discrete(ku,kv,r,Nu,Nv);
+            // vec2 lambda = build_courbure_cylindrique_discrete(ku,kv,r,Nu,Nv);
+            vec2 lambda = build_courbure_chapeau(u,v,r,a,b);
 
             float Ks = lambda.x()*lambda.y();
             float Hs = 0.5* (lambda.x()+lambda.y());
@@ -131,7 +144,7 @@ void scene::build_surface_cylindrique()
             vec3 couleur;
             if (min_c!=max_c){
                 couleur = colormap((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
-                std::cout<<couleur<<std::endl;
+                // std::cout<<(liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c)<<std::endl;
             }
             else {
                 couleur = colormap(0);
@@ -164,15 +177,37 @@ vec2 scene::build_courbure_cylindrique(const float& u,const float&  v,const floa
 
 }
 
+vec2 scene::build_courbure_chapeau(const float& u,const float&  v,const float&  r, const float& a, const float& b)
+{
+    mat2 Is(dot(vec3(-3*a*sin(u)*sin(u)*cos(v)*cos(v)*cos(v),3*b*cos(u)*cos(u)*cos(v)*cos(v)*cos(v),0),vec3(-3*a*sin(u)*sin(u)*cos(v)*cos(v)*cos(v),3*b*cos(u)*cos(u)*cos(v)*cos(v)*cos(v),0)), 
+            dot(vec3(-3*a*sin(u)*sin(u)*cos(v)*cos(v)*cos(v),3*b*cos(u)*cos(u)*cos(v)*cos(v)*cos(v),0),vec3(-3*a*cos(u)*cos(u)*cos(u)*sin(v)*sin(v),-3*b*sin(u)*sin(u)*sin(u)*sin(v)*sin(v),3*a*cos(v)*cos(v))), 
+            dot(vec3(-3*a*sin(u)*sin(u)*cos(v)*cos(v)*cos(v),3*b*cos(u)*cos(u)*cos(v)*cos(v)*cos(v),0),vec3(-3*a*cos(u)*cos(u)*cos(u)*sin(v)*sin(v),-3*b*sin(u)*sin(u)*sin(u)*sin(v)*sin(v),3*a*cos(v)*cos(v))),
+            dot(vec3(-3*a*cos(u)*cos(u)*cos(u)*sin(v)*sin(v),-3*b*sin(u)*sin(u)*sin(u)*sin(v)*sin(v),3*a*cos(v)*cos(v)),vec3(-3*a*cos(u)*cos(u)*cos(u)*sin(v)*sin(v),-3*b*sin(u)*sin(u)*sin(u)*sin(v)*sin(v),3*a*cos(v)*cos(v))));
+        
+    vec3 n = normalized(cross(vec3(-3*a*sin(u)*sin(u)*cos(v)*cos(v)*cos(v),3*b*cos(u)*cos(u)*cos(v)*cos(v)*cos(v),0),vec3(-3*a*cos(u)*cos(u)*cos(u)*sin(v)*sin(v),-3*b*sin(u)*sin(u)*sin(u)*sin(v)*sin(v),3*a*cos(v)*cos(v))))  ;
+
+    mat2 IIs(dot(vec3(-6*a*cos(u)*cos(v)*cos(v)*cos(v),-6*b*sin(u)*cos(v)*cos(v)*cos(v),0),n), 
+            dot(vec3(9*a*sin(u)*sin(u)*sin(v)*sin(v),-9*b*cos(u)*cos(u)*sin(v)*sin(v),0),n), 
+            dot(vec3(9*a*sin(u)*sin(u)*sin(v)*sin(v),-9*b*cos(u)*cos(u)*sin(v)*sin(v),0),n),
+            dot(vec3(-6*a*cos(u)*cos(u)*cos(u)*cos(v),-6*b*sin(u)*sin(u)*sin(u)*cos(v),-6*a*sin(v)),n));
+
+    mat2 Ws = -IIs*inverse(Is);
+
+    auto lambda = eigenvalue(Ws) ;
+
+    return lambda;
+
+}
+
 vec2 scene::build_courbure_cylindrique_discrete(const float& u,const float&  v,const float&  r,const int& Nu, const int& Nv)
 {
     if (u!=0 and u!=Nu-1 and v!=0 and v!=Nv-1){
-        mat2 Is(dot((surface.vertex(u-1,v)-surface.vertex(u+1,v))/2,(surface.vertex(u-1,v)-surface.vertex(u+1,v))/2), 
-                dot((surface.vertex(u-1,v)-surface.vertex(u+1,v))/2,(surface.vertex(u,v-1)-surface.vertex(u,v+1))/2), 
-                dot((surface.vertex(u-1,v)-surface.vertex(u+1,v))/2,(surface.vertex(u,v-1)-surface.vertex(u,v+1))/2), 
-                dot((surface.vertex(u,v-1)-surface.vertex(u,v+1))/2,(surface.vertex(u,v-1)-surface.vertex(u,v+1))/2));
+        mat2 Is(dot((surface.vertex(u+1,v)-surface.vertex(u-1,v))/2,(surface.vertex(u+1,v)-surface.vertex(u-1,v))/2), 
+                dot((surface.vertex(u+1,v)-surface.vertex(u-1,v))/2,(surface.vertex(u,v+1)-surface.vertex(u,v-1))/2), 
+                dot((surface.vertex(u+1,v)-surface.vertex(u-1,v))/2,(surface.vertex(u,v+1)-surface.vertex(u,v-1))/2), 
+                dot((surface.vertex(u,v+1)-surface.vertex(u,v-1))/2,(surface.vertex(u,v+1)-surface.vertex(u,v-1))/2));
 
-        vec3 n = normalized(cross((surface.vertex(u-1,v)-surface.vertex(u+1,v))/2,(surface.vertex(u,v-1)-surface.vertex(u,v+1))/2));
+        vec3 n = normalized(cross((surface.vertex(u+1,v)-surface.vertex(u-1,v))/2,(surface.vertex(u,v+1)-surface.vertex(u,v-1))/2));
 
         mat2 IIs(dot((surface.vertex(u+1,v)-2*surface.vertex(u,v)+surface.vertex(u-1,v)),n), 
                 dot((surface.vertex(u+1, v+1)-surface.vertex(u+1,v-1)-surface.vertex(u-1,v+1)+surface.vertex(u-1,v-1))/4,n), 
