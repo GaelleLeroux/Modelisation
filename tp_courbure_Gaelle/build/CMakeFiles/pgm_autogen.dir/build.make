@@ -53,10 +53,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build
+=======
+CMAKE_SOURCE_DIR = /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build
+>>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 # Utility rule file for pgm_autogen.
 
@@ -67,8 +74,13 @@ include CMakeFiles/pgm_autogen.dir/compiler_depend.make
 include CMakeFiles/pgm_autogen.dir/progress.make
 
 CMakeFiles/pgm_autogen:
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target pgm"
 	/usr/bin/cmake -E cmake_autogen /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles/pgm_autogen.dir/AutogenInfo.json ""
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target pgm"
+	/usr/bin/cmake -E cmake_autogen /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles/pgm_autogen.dir/AutogenInfo.json ""
+>>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 pgm_autogen: CMakeFiles/pgm_autogen
 pgm_autogen: CMakeFiles/pgm_autogen.dir/build.make
@@ -83,6 +95,10 @@ CMakeFiles/pgm_autogen.dir/clean:
 .PHONY : CMakeFiles/pgm_autogen.dir/clean
 
 CMakeFiles/pgm_autogen.dir/depend:
+<<<<<<< HEAD
 	cd /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles/pgm_autogen.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles/pgm_autogen.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 .PHONY : CMakeFiles/pgm_autogen.dir/depend
 

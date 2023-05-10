@@ -57,10 +57,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build
+=======
+CMAKE_SOURCE_DIR = /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build
+>>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +94,15 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build//CMakeFiles/progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/CMakeFiles 0
+>>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
 .PHONY : all
 
 # The main clean target

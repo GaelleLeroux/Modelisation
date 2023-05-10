@@ -1,7 +1,13 @@
 CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.o: \
+<<<<<<< HEAD
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat4.cpp \
  /usr/include/stdc-predef.h \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat4.hpp \
+=======
+ /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat4.cpp \
+ /usr/include/stdc-predef.h \
+ /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat4.hpp \
+>>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -147,12 +153,21 @@ CMakeFiles/pgm.dir/src/lib/3d/mat4.cpp.o: \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/array \
  /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
+<<<<<<< HEAD
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat3.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec3.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec4.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/../common/error_handling.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/../common/exception_cpe.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/3d/../common/backtrace.hpp \
+=======
+ /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/mat3.hpp \
+ /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec3.hpp \
+ /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/vec4.hpp \
+ /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/../common/error_handling.hpp \
+ /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/../common/exception_cpe.hpp \
+ /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/3d/../common/backtrace.hpp \
+>>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \

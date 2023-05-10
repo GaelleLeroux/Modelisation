@@ -29,6 +29,9 @@ public:
     scene();
 
     cpe::vec2 build_courbure_cylindrique(const float& u,const float&  v,const float&  r);
+    cpe::vec2 build_courbure_chapeau(const float& u,const float&  v,const float&  r, const float& a, const float& b);
+
+    cpe::vec2 build_courbure_cylindrique_discrete(const float& u,const float&  v,const float&  r,const int& Nu, const int& Nv);
 
     void build_surface_cylindrique();
 

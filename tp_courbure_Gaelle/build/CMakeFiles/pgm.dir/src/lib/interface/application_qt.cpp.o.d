@@ -1,7 +1,13 @@
 CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.o: \
+<<<<<<< HEAD
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/application_qt.cpp \
  /usr/include/stdc-predef.h \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/application_qt.hpp \
+=======
+ /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/application_qt.cpp \
+ /usr/include/stdc-predef.h \
+ /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/application_qt.hpp \
+>>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -243,8 +249,13 @@ CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+<<<<<<< HEAD
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/../common/error_handling.hpp \
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/../common/exception_cpe.hpp \
+=======
+ /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/../common/error_handling.hpp \
+ /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/../common/exception_cpe.hpp \
+>>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/basic_ios.h \
  /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
@@ -255,4 +266,8 @@ CMakeFiles/pgm.dir/src/lib/interface/application_qt.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
+<<<<<<< HEAD
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/interface/../common/backtrace.hpp
+=======
+ /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/interface/../common/backtrace.hpp
+>>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891

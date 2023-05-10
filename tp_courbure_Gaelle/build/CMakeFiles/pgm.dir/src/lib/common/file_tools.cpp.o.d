@@ -1,5 +1,9 @@
 CMakeFiles/pgm.dir/src/lib/common/file_tools.cpp.o: \
+<<<<<<< HEAD
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/src/lib/common/file_tools.cpp \
+=======
+ /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/src/lib/common/file_tools.cpp \
+>>>>>>> 3f596cdb80cf9d6c49e2b473079a24c201f8b891
  /usr/include/stdc-predef.h /usr/include/c++/11/fstream \
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
  /usr/include/c++/11/iosfwd \
