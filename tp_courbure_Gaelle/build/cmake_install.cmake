@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle
+# Install script for directory: /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
