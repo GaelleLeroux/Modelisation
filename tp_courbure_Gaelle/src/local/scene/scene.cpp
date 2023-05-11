@@ -52,6 +52,12 @@ vec3 colormap(float x) {
 //     return vec3(1.0, g, 0.0);
 // }
 
+// color map matlab automn
+vec3 colormap(float x) {
+    float g = min(max(x,0.f),1.f);
+    return vec3(1.0, g, 0.0);
+}
+
 
 void scene::build_surface_cylindrique()
 {
@@ -59,10 +65,10 @@ void scene::build_surface_cylindrique()
     int const Nv=200;
     surface.set_plane_xy_unit(Nu,Nv);
 
-    float const u_min = 0.0f;
-    float const u_max = 2.0f*M_PI;
+    float const u_min = -2.0f;
+    float const u_max = 2.0f;
     float const v_min = 0.0f;
-    float const v_max = 2.0f;
+    float const v_max = 5*2.0f*M_PI;
 
     float min_c=1000;
     float max_c=0;
@@ -71,8 +77,10 @@ void scene::build_surface_cylindrique()
 
     std::vector<float> liste_lambda;
     liste_lambda.resize(Nu*Nv);
-    float const a = 0.001;
+    // float const a = 1;
     float const b = 1;
+
+    float const a = 0.1;
 
     
 
@@ -85,11 +93,11 @@ void scene::build_surface_cylindrique()
 
             float const u = u_min + u_n * (u_max-u_min);
             float const v = v_min + v_n * (v_max-v_min);
-            
+
             // //CYLINDRE
-            // float const x = r*cos(u);
-            // float const y = r*sin(u);
-            // float const z = v;   
+            // // float const x = r*cos(u);
+            // // float const y = r*sin(u);
+            // // float const z = v;   
 
             //CHAPEAU
             // float const x = a*cos(u)*cos(u)*cos(u)*cos(v)*cos(v)*cos(v);
@@ -101,7 +109,18 @@ void scene::build_surface_cylindrique()
             // float const y = u*sin(v);
             // float const z = u*cos(v)*cos(v)*cos(v);  
 
-            //PATE
+            // float const x = a*cosh(u+v)*cos(1/tan((u-v)*(M_PI/4)));
+            // float const y = a*cosh(u+v)*sin(1/tan((u-v)*(M_PI/4)));
+            // float const z = a*(u+v);  
+
+            float const x = a*cosh(u)*cos(v);
+            float const y = a*cosh(u)*sin(v);
+            float const z = a*(u);  
+
+            // float const x = r*cosh(cosh(u))*cos(v);
+            // float const y = r*cosh(cosh(u))*sin(v);
+            // float const z = r*(u); 
+
             // float const x = 0.5*cos(u);
             // float const y = 0.7*cos(v);
             // float const z = 0.5*sin(u)+0.7*sin(v);  
@@ -127,10 +146,11 @@ void scene::build_surface_cylindrique()
 
             float const u = u_min + u_n * (u_max-u_min);
             float const v = v_min + v_n * (v_max-v_min);
+            
 
-            //vec2 lambda = build_courbure_cylindrique(u,v,r);
+            // vec2 lambda = build_courbure_cylindrique(u,v,r);
             vec2 lambda = build_courbure_cylindrique_discrete(ku,kv,r,Nu,Nv);
-            //vec2 lambda = build_courbure_chapeau(u,v,r,a,b);
+            // vec2 lambda = build_courbure_chapeau(u,v,r,a,b);
 
             float Ks = lambda.x()*lambda.y();
             float Hs = 0.5* (lambda.x()+lambda.y());
@@ -139,6 +159,8 @@ void scene::build_surface_cylindrique()
             min_c = min(min_c,Ks);
             max_c = max(max_c,Ks);
 
+            // min_c = min(min_c,Hs);
+            // max_c = max(max_c,Hs);
             // min_c = min(min_c,Hs);
             // max_c = max(max_c,Hs);
 
@@ -151,8 +173,8 @@ void scene::build_surface_cylindrique()
     {
         for(int kv=0 ; kv<Nv ; ++kv)
         {
-            // std::cout<<surface.vertex(ku,kv).x()<<std::endl;
             vec3 couleur;
+            if ((std::round((max_c-min_c)*100)/100) != 0){
             if ((std::round((max_c-min_c)*100)/100) != 0){
                 couleur = colormap((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
                 // std::cout<<(liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c)<<std::endl;
@@ -160,6 +182,7 @@ void scene::build_surface_cylindrique()
             else {
                 couleur = colormap(0);
             }
+            
             surface.color(ku,kv) = couleur;
         }
     }
