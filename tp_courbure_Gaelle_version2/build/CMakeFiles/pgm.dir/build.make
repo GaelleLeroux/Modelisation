@@ -573,10 +573,24 @@ CMakeFiles/pgm.dir/src/local/scene/cylindrique.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/local/scene/cylindrique.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/cylindrique.cpp -o CMakeFiles/pgm.dir/src/local/scene/cylindrique.cpp.s
 
+CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.o: CMakeFiles/pgm.dir/flags.make
+CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.o: ../src/local/scene/helicoide.cpp
+CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.o -MF CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.o.d -o CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/helicoide.cpp
+
+CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/helicoide.cpp > CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.i
+
+CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/helicoide.cpp -o CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.s
+
 CMakeFiles/pgm.dir/src/local/scene/methode.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/local/scene/methode.cpp.o: ../src/local/scene/methode.cpp
 CMakeFiles/pgm.dir/src/local/scene/methode.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/pgm.dir/src/local/scene/methode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/pgm.dir/src/local/scene/methode.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/local/scene/methode.cpp.o -MF CMakeFiles/pgm.dir/src/local/scene/methode.cpp.o.d -o CMakeFiles/pgm.dir/src/local/scene/methode.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/methode.cpp
 
 CMakeFiles/pgm.dir/src/local/scene/methode.cpp.i: cmake_force
@@ -587,10 +601,38 @@ CMakeFiles/pgm.dir/src/local/scene/methode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/local/scene/methode.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/methode.cpp -o CMakeFiles/pgm.dir/src/local/scene/methode.cpp.s
 
+CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.o: CMakeFiles/pgm.dir/flags.make
+CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.o: ../src/local/scene/para_hyper.cpp
+CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.o -MF CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.o.d -o CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/para_hyper.cpp
+
+CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/para_hyper.cpp > CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.i
+
+CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/para_hyper.cpp -o CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.s
+
+CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.o: CMakeFiles/pgm.dir/flags.make
+CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.o: ../src/local/scene/pseudo_sphere.cpp
+CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.o -MF CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.o.d -o CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/pseudo_sphere.cpp
+
+CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/pseudo_sphere.cpp > CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.i
+
+CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/pseudo_sphere.cpp -o CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.s
+
 CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o: ../src/local/scene/scene.cpp
 CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o -MF CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o.d -o CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/scene.cpp
 
 CMakeFiles/pgm.dir/src/local/scene/scene.cpp.i: cmake_force
@@ -604,7 +646,7 @@ CMakeFiles/pgm.dir/src/local/scene/scene.cpp.s: cmake_force
 CMakeFiles/pgm.dir/src/local/scene/sphere.cpp.o: CMakeFiles/pgm.dir/flags.make
 CMakeFiles/pgm.dir/src/local/scene/sphere.cpp.o: ../src/local/scene/sphere.cpp
 CMakeFiles/pgm.dir/src/local/scene/sphere.cpp.o: CMakeFiles/pgm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/pgm.dir/src/local/scene/sphere.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/pgm.dir/src/local/scene/sphere.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pgm.dir/src/local/scene/sphere.cpp.o -MF CMakeFiles/pgm.dir/src/local/scene/sphere.cpp.o.d -o CMakeFiles/pgm.dir/src/local/scene/sphere.cpp.o -c /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/sphere.cpp
 
 CMakeFiles/pgm.dir/src/local/scene/sphere.cpp.i: cmake_force
@@ -653,7 +695,10 @@ pgm_OBJECTS = \
 "CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o" \
 "CMakeFiles/pgm.dir/src/local/scene/catenoide.cpp.o" \
 "CMakeFiles/pgm.dir/src/local/scene/cylindrique.cpp.o" \
+"CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.o" \
 "CMakeFiles/pgm.dir/src/local/scene/methode.cpp.o" \
+"CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.o" \
+"CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.o" \
 "CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o" \
 "CMakeFiles/pgm.dir/src/local/scene/sphere.cpp.o"
 
@@ -696,7 +741,10 @@ pgm: CMakeFiles/pgm.dir/src/local/interface/myWidgetGL.cpp.o
 pgm: CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o
 pgm: CMakeFiles/pgm.dir/src/local/scene/catenoide.cpp.o
 pgm: CMakeFiles/pgm.dir/src/local/scene/cylindrique.cpp.o
+pgm: CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.o
 pgm: CMakeFiles/pgm.dir/src/local/scene/methode.cpp.o
+pgm: CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.o
+pgm: CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.o
 pgm: CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o
 pgm: CMakeFiles/pgm.dir/src/local/scene/sphere.cpp.o
 pgm: CMakeFiles/pgm.dir/build.make
@@ -708,7 +756,7 @@ pgm: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 pgm: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 pgm: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 pgm: CMakeFiles/pgm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking CXX executable pgm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Linking CXX executable pgm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pgm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -44,7 +44,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/interface/myWindow.cpp" "CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o" "gcc" "CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o.d"
   "/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/catenoide.cpp" "CMakeFiles/pgm.dir/src/local/scene/catenoide.cpp.o" "gcc" "CMakeFiles/pgm.dir/src/local/scene/catenoide.cpp.o.d"
   "/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/cylindrique.cpp" "CMakeFiles/pgm.dir/src/local/scene/cylindrique.cpp.o" "gcc" "CMakeFiles/pgm.dir/src/local/scene/cylindrique.cpp.o.d"
+  "/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/helicoide.cpp" "CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.o" "gcc" "CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.o.d"
   "/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/methode.cpp" "CMakeFiles/pgm.dir/src/local/scene/methode.cpp.o" "gcc" "CMakeFiles/pgm.dir/src/local/scene/methode.cpp.o.d"
+  "/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/para_hyper.cpp" "CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.o" "gcc" "CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.o.d"
+  "/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/pseudo_sphere.cpp" "CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.o" "gcc" "CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.o.d"
   "/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/scene.cpp" "CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o" "gcc" "CMakeFiles/pgm.dir/src/local/scene/scene.cpp.o.d"
   "/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/sphere.cpp" "CMakeFiles/pgm.dir/src/local/scene/sphere.cpp.o" "gcc" "CMakeFiles/pgm.dir/src/local/scene/sphere.cpp.o.d"
   )

@@ -428,9 +428,27 @@
 			null
 		],
 		[
+			"/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/helicoide.hpp",
+			"MU",
+			"6NPOMZLN2E/moc_helicoide.cpp",
+			null
+		],
+		[
 			"/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/methode.hpp",
 			"MU",
 			"6NPOMZLN2E/moc_methode.cpp",
+			null
+		],
+		[
+			"/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/para_hyper.hpp",
+			"MU",
+			"6NPOMZLN2E/moc_para_hyper.cpp",
+			null
+		],
+		[
+			"/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/pseudo_sphere.hpp",
+			"MU",
+			"6NPOMZLN2E/moc_pseudo_sphere.cpp",
 			null
 		],
 		[
@@ -681,7 +699,22 @@
 			null
 		],
 		[
+			"/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/helicoide.cpp",
+			"MU",
+			null
+		],
+		[
 			"/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/methode.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/para_hyper.cpp",
+			"MU",
+			null
+		],
+		[
+			"/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/pseudo_sphere.cpp",
 			"MU",
 			null
 		],

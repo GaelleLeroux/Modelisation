@@ -23,6 +23,9 @@
 #include "catenoide.hpp"
 #include "cylindrique.hpp"
 #include "sphere.hpp"
+#include "para_hyper.hpp"
+#include "helicoide.hpp"
+#include "pseudo_sphere.hpp"
 
 
 using namespace cpe;
@@ -44,7 +47,10 @@ void scene::build_surface_cylindrique()
 {
     // cylindrique forme;
     // catenoide forme;
-    sphere forme;
+    // sphere forme;
+    // para_hyper forme;
+    // helicoide forme;
+    pseudo_sphere forme;
     surface = forme.create(surface);
 
 }

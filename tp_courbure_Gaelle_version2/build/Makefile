@@ -1006,6 +1006,30 @@ src/local/scene/cylindrique.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/src/local/scene/cylindrique.cpp.s
 .PHONY : src/local/scene/cylindrique.cpp.s
 
+src/local/scene/helicoide.o: src/local/scene/helicoide.cpp.o
+.PHONY : src/local/scene/helicoide.o
+
+# target to build an object file
+src/local/scene/helicoide.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.o
+.PHONY : src/local/scene/helicoide.cpp.o
+
+src/local/scene/helicoide.i: src/local/scene/helicoide.cpp.i
+.PHONY : src/local/scene/helicoide.i
+
+# target to preprocess a source file
+src/local/scene/helicoide.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.i
+.PHONY : src/local/scene/helicoide.cpp.i
+
+src/local/scene/helicoide.s: src/local/scene/helicoide.cpp.s
+.PHONY : src/local/scene/helicoide.s
+
+# target to generate assembly for a file
+src/local/scene/helicoide.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.s
+.PHONY : src/local/scene/helicoide.cpp.s
+
 src/local/scene/methode.o: src/local/scene/methode.cpp.o
 .PHONY : src/local/scene/methode.o
 
@@ -1029,6 +1053,54 @@ src/local/scene/methode.s: src/local/scene/methode.cpp.s
 src/local/scene/methode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/src/local/scene/methode.cpp.s
 .PHONY : src/local/scene/methode.cpp.s
+
+src/local/scene/para_hyper.o: src/local/scene/para_hyper.cpp.o
+.PHONY : src/local/scene/para_hyper.o
+
+# target to build an object file
+src/local/scene/para_hyper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.o
+.PHONY : src/local/scene/para_hyper.cpp.o
+
+src/local/scene/para_hyper.i: src/local/scene/para_hyper.cpp.i
+.PHONY : src/local/scene/para_hyper.i
+
+# target to preprocess a source file
+src/local/scene/para_hyper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.i
+.PHONY : src/local/scene/para_hyper.cpp.i
+
+src/local/scene/para_hyper.s: src/local/scene/para_hyper.cpp.s
+.PHONY : src/local/scene/para_hyper.s
+
+# target to generate assembly for a file
+src/local/scene/para_hyper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/src/local/scene/para_hyper.cpp.s
+.PHONY : src/local/scene/para_hyper.cpp.s
+
+src/local/scene/pseudo_sphere.o: src/local/scene/pseudo_sphere.cpp.o
+.PHONY : src/local/scene/pseudo_sphere.o
+
+# target to build an object file
+src/local/scene/pseudo_sphere.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.o
+.PHONY : src/local/scene/pseudo_sphere.cpp.o
+
+src/local/scene/pseudo_sphere.i: src/local/scene/pseudo_sphere.cpp.i
+.PHONY : src/local/scene/pseudo_sphere.i
+
+# target to preprocess a source file
+src/local/scene/pseudo_sphere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.i
+.PHONY : src/local/scene/pseudo_sphere.cpp.i
+
+src/local/scene/pseudo_sphere.s: src/local/scene/pseudo_sphere.cpp.s
+.PHONY : src/local/scene/pseudo_sphere.s
+
+# target to generate assembly for a file
+src/local/scene/pseudo_sphere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/src/local/scene/pseudo_sphere.cpp.s
+.PHONY : src/local/scene/pseudo_sphere.cpp.s
 
 src/local/scene/scene.o: src/local/scene/scene.cpp.o
 .PHONY : src/local/scene/scene.o
@@ -1196,9 +1268,18 @@ help:
 	@echo "... src/local/scene/cylindrique.o"
 	@echo "... src/local/scene/cylindrique.i"
 	@echo "... src/local/scene/cylindrique.s"
+	@echo "... src/local/scene/helicoide.o"
+	@echo "... src/local/scene/helicoide.i"
+	@echo "... src/local/scene/helicoide.s"
 	@echo "... src/local/scene/methode.o"
 	@echo "... src/local/scene/methode.i"
 	@echo "... src/local/scene/methode.s"
+	@echo "... src/local/scene/para_hyper.o"
+	@echo "... src/local/scene/para_hyper.i"
+	@echo "... src/local/scene/para_hyper.s"
+	@echo "... src/local/scene/pseudo_sphere.o"
+	@echo "... src/local/scene/pseudo_sphere.i"
+	@echo "... src/local/scene/pseudo_sphere.s"
 	@echo "... src/local/scene/scene.o"
 	@echo "... src/local/scene/scene.i"
 	@echo "... src/local/scene/scene.s"
