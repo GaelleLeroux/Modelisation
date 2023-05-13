@@ -42,15 +42,16 @@ float max(float x,float y){
 }
 
 // colormap qu'on avait choisis de base
+vec3 colormap(float x) {
+    return vec3(1.0, std::min(std::max(x,0.f),1.f), std::min(std::max(1.f-x,0.f),1.f));
+}
+
+// // color map matlab automn
 // vec3 colormap(float x) {
-//     return vec3(1.0, std::min(std::max(x,0.f),1.f), std::min(std::max(1.f-x,0.f),1.f));
+//     float g = std::min(std::max(x,0.f),1.f);
+//     return vec3(1.0, g, 0.0);
 // }
 
-// color map matlab automn
-vec3 colormap(float x) {
-    float g = min(max(x,0.f),1.f);
-    return vec3(1.0, g, 0.0);
-}
 
 
 void scene::build_surface_cylindrique()
@@ -88,18 +89,22 @@ void scene::build_surface_cylindrique()
             float const u = u_min + u_n * (u_max-u_min);
             float const v = v_min + v_n * (v_max-v_min);
 
-            // float const x = r*cos(u);
-            // float const y = r*sin(u);
-            // float const z = v;   
+            // //CYLINDRE
+            // // float const x = r*cos(u);
+            // // float const y = r*sin(u);
+            // // float const z = v;   
 
+            //CHAPEAU
             // float const x = a*cos(u)*cos(u)*cos(u)*cos(v)*cos(v)*cos(v);
             // float const y = b*sin(u)*sin(u)*sin(u)*cos(v)*cos(v)*cos(v);
             // float const z = a*sin(v)*sin(v)*sin(v);   
 
+            //CHIPS
             // float const x = u*cos(v);
             // float const y = u*sin(v);
             // float const z = u*cos(v)*cos(v)*cos(v);  
 
+            //CATENOIDE
             // float const x = a*cosh(u+v)*cos(1/tan((u-v)*(M_PI/4)));
             // float const y = a*cosh(u+v)*sin(1/tan((u-v)*(M_PI/4)));
             // float const z = a*(u+v);  
@@ -116,6 +121,8 @@ void scene::build_surface_cylindrique()
             // float const y = 0.7*cos(v);
             // float const z = 0.5*sin(u)+0.7*sin(v);  
 
+            
+            
 
             surface.vertex(ku,kv) = {x,y,z};
         }
@@ -175,7 +182,7 @@ vec2 scene::build_courbure_cylindrique(const float& u,const float&  v,const floa
             dot(vec3(-r*sin(u),r*cos(u),0),vec3(0,0,1)), 
             dot(vec3(-r*sin(u),r*cos(u),0),vec3(0,0,1)),
             dot(vec3(0,0,1),vec3(0,0,1)));
-        
+            
     vec3 n = normalized(cross(vec3(-r*sin(u),r*cos(u),0),vec3(0,0,1)))  ;
 
     mat2 IIs(dot(vec3(-r*cos(u),-r*sin(u),0),n), 
