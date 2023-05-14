@@ -3,6 +3,42 @@
 #include "../../lib/3d/vec2.hpp"
 #include "../../lib/3d/mat2.hpp"
 #include "methode.hpp"
+using namespace cpe;
+
+
+vec2 build_courbure_helicoide(const float& u,const float&  v,const float&  r)
+{
+    // Calcul de la métrique de l'hélicoïde
+    mat2 Is(
+        dot(vec3(1 + pow(r, 2) * pow(v, 2), 0, 2 * r * v), vec3(1 + pow(r, 2), 0, 0)),
+        dot(vec3(1 + pow(r, 2) * pow(v, 2), 0, 2 * r * v), vec3(0, 1, 0)),
+        dot(vec3(1 + pow(r, 2), 0, 0), vec3(0, 1, 0)),
+        dot(vec3(pow(r, 2), 0, 0), vec3(pow(v, 2), 0, 0))
+    );
+
+    // Calcul de la normale à l'hélicoïde
+    vec3 n = normalized(cross(
+        vec3(-r * cos(u), -r * sin(u), v),
+        vec3(0, 0, 2)
+    ));
+
+    // Calcul du tenseur de courbure
+    mat2 IIs(
+        dot(vec3(-r * sin(u), r * cos(u), 0), n),
+        dot(vec3(0, 0, 0), n),
+        dot(vec3(0, 0, 0), n),
+        dot(vec3(0, 0, 0), n)
+    );
+
+    // Calcul du tenseur de Weingarten
+    mat2 Ws = -IIs * inverse(Is);
+
+    // Calcul des valeurs propres du tenseur de Weingarten
+    auto lambda = eigenvalue(Ws);
+
+    return lambda;
+}
+
 
 helicoide::helicoide(){};
 
