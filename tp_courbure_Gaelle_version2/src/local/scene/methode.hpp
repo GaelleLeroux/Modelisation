@@ -17,4 +17,6 @@ cpe::vec2 build_courbure_analytique(const cpe::vec3& du,const cpe::vec3& dv,cons
 
 cpe::vec3 colormap(float x);
 
+cpe::vec3 colormap_hsv_matlab(float x);
+
 #endif

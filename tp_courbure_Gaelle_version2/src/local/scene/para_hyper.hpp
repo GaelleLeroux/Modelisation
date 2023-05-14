@@ -31,9 +31,9 @@ class para_hyper {
     float const r = 0.2f;
 
     std::vector<float> liste_lambda;
-    float const a = 2;
-    float const b = 3;
-    float const h = 4;
+    float const a = 1;
+    float const b = 2;
+    float const h = 3;
 
 };
 

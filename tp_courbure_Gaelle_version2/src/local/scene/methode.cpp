@@ -78,3 +78,36 @@ cpe::vec2 build_courbure_analytique(const cpe::vec3& du,const cpe::vec3& dv,cons
 cpe::vec3 colormap(float x) {
     return cpe::vec3(1.0, std::min(std::max(x,0.f),1.f), std::min(std::max(1.f-x,0.f),1.f));
 }
+
+
+float colormap_red_hsv_matlav(float x) {
+    if (x < 0.5) {
+        return -6.0 * x + 67.0 / 32.0;
+    } else {
+        return 6.0 * x - 79.0 / 16.0;
+    }
+}
+
+float colormap_green_hsv_matlav(float x) {
+    if (x < 0.4) {
+        return 6.0 * x - 3.0 / 32.0;
+    } else {
+        return -6.0 * x + 79.0 / 16.0;
+    }
+}
+
+float colormap_blue_hsv_matlav(float x) {
+    if (x < 0.7) {
+       return 6.0 * x - 67.0 / 32.0;
+    } else {
+       return -6.0 * x + 195.0 / 32.0;
+    }
+}
+
+
+cpe::vec3 colormap_hsv_matlab(float& x) {
+    float r = min(max(colormap_red_hsv_matlav(x), 0.0), 1.0);
+    float g = min(max(colormap_green_hsv_matlav(x), 0.0), 1.0);
+    float b = min(max(colormap_blue_hsv_matlav(x), 0.0), 1.0);
+    return vec3(r, g, b);
+}

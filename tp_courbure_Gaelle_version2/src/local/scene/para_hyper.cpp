@@ -64,7 +64,7 @@ mesh_parametric& para_hyper::create(mesh_parametric& surface){
             // vec2 lambda = build_courbure_cylindrique_discrete(ku,kv,r,Nu,Nv,surface);
             vec2 lambda = build_courbure_analytique(du(u,v,r),dv(u,v,r),du2(u,v,r),dv2(u,v,r),dudv(u,v,r));
 
-            float Ks = std::round(lambda.x())*std::round(lambda.y());
+            float Ks = lambda.x()*lambda.y();
             float Hs = 0.5* (lambda.x()+lambda.y());
 
             // std::cout<<lambda.x()<<"  "<<lambda.y()<<std::endl;
@@ -73,9 +73,10 @@ mesh_parametric& para_hyper::create(mesh_parametric& surface){
             min_c = min(min_c,Ks);
             max_c = max(max_c,Ks);
 
-            if (min_c==-100473){
+            if (Ks>260){
                 std::cout<<lambda.x()<<"  "<<lambda.y()<<std::endl;
             }
+            
 
             // min_c = min(min_c,Hs);
             // max_c = max(max_c,Hs);
@@ -84,7 +85,6 @@ mesh_parametric& para_hyper::create(mesh_parametric& surface){
     }
     std::cout<<min_c<<std::endl;
     std::cout<<max_c<<std::endl;
-    std::cout<<std::round((max_c-min_c)*100)/100<<std::endl;
     
 
     for(int ku=0 ; ku<Nu ; ++ku)
@@ -92,11 +92,14 @@ mesh_parametric& para_hyper::create(mesh_parametric& surface){
         for(int kv=0 ; kv<Nv ; ++kv)
         {
             vec3 couleur;
-            if ((std::round((max_c-min_c)*100)/100) != 0){
+            if ((max_c-min_c) != 0){
                 couleur = colormap((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
+                // couleur = colormap_hsv_matlab((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
+
             }
             else {
                 couleur = colormap(0);
+                // couleur = colormap_hsv_matlab(0);
             }
             
             surface.color(ku,kv) = couleur;
