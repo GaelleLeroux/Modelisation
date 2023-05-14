@@ -6,6 +6,7 @@
 #include <cmath>
 #include "methode.hpp"
 
+using namespace cpe;
 
 float min(float x,float y){
     if (x>y){
@@ -52,6 +53,26 @@ cpe::vec2 build_courbure_cylindrique_discrete(const float& u,const float&  v,con
     else {
         return cpe::vec2{0,0};
     };
+}
+
+cpe::vec2 build_courbure_analytique(const cpe::vec3& du,const cpe::vec3& dv,const cpe::vec3&  du2,const cpe::vec3&  dv2, const cpe::vec3&  dudv){
+    mat2 Is(dot(du,du), 
+            dot(du,dv), 
+            dot(du,dv),
+            dot(dv,dv));
+            
+    vec3 n = normalized(cross(du,dv))  ;
+
+    mat2 IIs(dot(du2,n), 
+            dot(dudv,n), 
+            dot(dudv,n),
+            dot(dv2,n));
+
+    mat2 Ws = -IIs*inverse(Is);
+
+    auto lambda = eigenvalue(Ws) ;
+
+    return lambda;
 }
 
 cpe::vec3 colormap(float x) {
