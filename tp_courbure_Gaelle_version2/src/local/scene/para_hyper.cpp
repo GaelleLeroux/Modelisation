@@ -7,6 +7,25 @@
 
 using namespace cpe;
 
+vec3 para_hyper::du(const float& u,const float&  v,const float&  r){
+    return vec3(a*u,0,2*h*u);
+}
+
+vec3 para_hyper::dv(const float& u,const float&  v,const float&  r){
+    return vec3(0,b,2*h*v);
+}
+
+vec3 para_hyper::du2(const float& u,const float&  v,const float&  r){
+    return vec3(0,0,2*h);
+}
+
+vec3 para_hyper::dv2(const float& u,const float&  v,const float&  r){
+    return vec3(0,0,2*h);
+}
+
+vec3 para_hyper::dudv(const float& u,const float&  v,const float&  r){
+    return vec3(0,0,0);
+}
 
 
 para_hyper::para_hyper(){};
@@ -42,7 +61,8 @@ mesh_parametric& para_hyper::create(mesh_parametric& surface){
             float const u = u_min + u_n * (u_max-u_min);
             float const v = v_min + v_n * (v_max-v_min);
             
-            vec2 lambda = build_courbure_cylindrique_discrete(ku,kv,r,Nu,Nv,surface);
+            // vec2 lambda = build_courbure_cylindrique_discrete(ku,kv,r,Nu,Nv,surface);
+            vec2 lambda = build_courbure_analytique(du(u,v,r),dv(u,v,r),du2(u,v,r),dv2(u,v,r),dudv(u,v,r));
 
             float Ks = std::round(lambda.x())*std::round(lambda.y());
             float Hs = 0.5* (lambda.x()+lambda.y());

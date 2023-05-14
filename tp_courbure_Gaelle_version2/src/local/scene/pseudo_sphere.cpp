@@ -4,6 +4,29 @@
 #include "../../lib/3d/mat2.hpp"
 #include "methode.hpp"
 
+using namespace cpe;
+
+vec3 pseudo_sphere::du(const float& u,const float&  v,const float&  r){
+    return vec3(-a*cos(v)*sinh(u)/(cosh(u)*cosh(u)),-a*sin(v)*sinh(u)/(cosh(u)*cosh(u)),a*(1-1/(cosh(u)*cosh(u))));
+}
+
+vec3 pseudo_sphere::dv(const float& u,const float&  v,const float&  r){
+    return vec3(-a*sin(v)/cosh(u),a*cos(v)/cosh(u),0);
+}
+
+vec3 pseudo_sphere::du2(const float& u,const float&  v,const float&  r){
+    return vec3((-a*cos(v)*tanh(u)/cosh(u))-(2*a*cos(v)*1/(cosh(u)*cosh(u))),(-a*sin(v)*tanh(u)/cosh(u))-(2*a*sin(v)*1/(cosh(u)*cosh(u))),-2*a*tanh(v)/(cosh(u)*cosh(u)));
+}
+
+vec3 pseudo_sphere::dv2(const float& u,const float&  v,const float&  r){
+    return vec3(-a*cos(v)/cosh(u),-a*sin(v)/cosh(u),0);
+}
+
+vec3 pseudo_sphere::dudv(const float& u,const float&  v,const float&  r){
+    return vec3(a*sin(v)*sinh(u)/(cosh(u)*cosh(u)),-a*cos(v)*sinh(u)/(cosh(u)*cosh(u)),0);
+}
+
+
 pseudo_sphere::pseudo_sphere(){};
 
 cpe::mesh_parametric& pseudo_sphere::create(cpe::mesh_parametric& surface){
@@ -37,7 +60,8 @@ cpe::mesh_parametric& pseudo_sphere::create(cpe::mesh_parametric& surface){
             float const u = u_min + u_n * (u_max-u_min);
             float const v = v_min + v_n * (v_max-v_min);
             
-            cpe::vec2 lambda = build_courbure_cylindrique_discrete(ku,kv,r,Nu,Nv,surface);
+            // cpe::vec2 lambda = build_courbure_cylindrique_discrete(ku,kv,r,Nu,Nv,surface);
+            vec2 lambda = build_courbure_analytique(du(u,v,r),dv(u,v,r),du2(u,v,r),dv2(u,v,r),dudv(u,v,r));
 
             float Ks = lambda.x()*lambda.y();
             float Hs = 0.5* (lambda.x()+lambda.y());
