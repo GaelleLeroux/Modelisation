@@ -12,7 +12,7 @@ vec3 para_hyper::du(const float& u,const float&  v,const float&  r){
 }
 
 vec3 para_hyper::dv(const float& u,const float&  v,const float&  r){
-    return vec3(0,b,2*h*v);
+    return vec3(0,b,-2*h*v);
 }
 
 vec3 para_hyper::du2(const float& u,const float&  v,const float&  r){
@@ -20,7 +20,7 @@ vec3 para_hyper::du2(const float& u,const float&  v,const float&  r){
 }
 
 vec3 para_hyper::dv2(const float& u,const float&  v,const float&  r){
-    return vec3(0,0,2*h);
+    return vec3(0,0,-2*h);
 }
 
 vec3 para_hyper::dudv(const float& u,const float&  v,const float&  r){
