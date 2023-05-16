@@ -30,26 +30,13 @@
 
 using namespace cpe;
 
-
-
-// colormap qu'on avait choisis de base
-
-
-// // color map matlab automn
-// vec3 colormap(float x) {
-//     float g = std::min(std::max(x,0.f),1.f);
-//     return vec3(1.0, g, 0.0);
-// }
-
-
-
 void scene::build_surface_cylindrique()
 {
     // cylindrique forme;
     // catenoide forme;
     // sphere forme;
-    para_hyper forme;
-    // helicoide forme;
+    // para_hyper forme;
+    helicoide forme;
     // pseudo_sphere forme;
     surface = forme.create(surface);
 

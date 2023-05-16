@@ -7306,17 +7306,10 @@ CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o
 CMakeFiles/pgm.dir/src/local/scene/catenoide.cpp.o
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/catenoide.cpp
  /usr/include/stdc-predef.h
-<<<<<<< HEAD
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/catenoide.hpp
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/mesh/mesh_parametric.hpp
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/mesh/mesh_basic.hpp
- /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/3d/vec3.hpp
-=======
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/catenoide.hpp
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/mesh/mesh_parametric.hpp
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/mesh/mesh_basic.hpp
  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/3d/vec3.hpp
->>>>>>> 6afe79ee8cae7cc2e23a1dbd087d61cd9cc26379
  /usr/include/c++/11/ostream
  /usr/include/c++/11/ios
  /usr/include/c++/11/iosfwd
