@@ -10,6 +10,11 @@ class catenoide {
 
     cpe::mesh_parametric& create(cpe::mesh_parametric& surface);
 
+    cpe::vec3 du(const float& u,const float&  v,const float&  r);
+    cpe::vec3 dv(const float& u,const float&  v,const float&  r);
+    cpe::vec3 du2(const float& u,const float&  v,const float&  r);
+    cpe::vec3 dv2(const float& u,const float&  v,const float&  r);
+    cpe::vec3 dudv(const float& u,const float&  v,const float&  r);
 
     private :
     int const Nu=200;

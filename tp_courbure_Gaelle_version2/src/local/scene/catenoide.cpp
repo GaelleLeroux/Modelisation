@@ -1,33 +1,29 @@
-#include "cylindrique.hpp"
+#include "catenoide.hpp"
 #include "../../lib/3d/vec3.hpp"
 #include "../../lib/3d/vec2.hpp"
 #include "../../lib/3d/mat2.hpp"
 #include "methode.hpp"
 using namespace cpe;
 
-vec2 build_courbure_catenoide(const float& u,const float&  v,const float&  r)
-{
-    
-    // Calcul du tenseur métrique
-    mat2 Is(dot(cosh(v)*cosh(v)-r*r*sin(u)*sin(u)*sinh(v)*sinh(v), 0.0f, -r*r*cos(u)*sin(u)*sinh(v)*sinh(v), 1.0f), 
-            dot(0.0f, r*r, 0.0f, 1.0f), 
-            dot(-r*r*cos(u)*sin(u)*sinh(v)*sinh(v), 0.0f, r*r*sin(u)*sin(u)*sinh(v)*sinh(v)-cosh(v)*cosh(v), 1.0f),
-            dot(1.0f, 1.0f, 1.0f, 0.0f));
-            
-    // Calcul du vecteur normal
-    vec3 n = normalized(cross(vec3(-r*sinh(v)*cos(u), -r*sinh(v)*sin(u), r*cosh(v))));
 
-    // Calcul du tenseur de courbure
-    mat2 IIs(dot(-r*r*sinh(v)*cosh(v)*cos(u)*sin(u), -r*r*cosh(v)*sinh(v)*sin(u), 0.0f, 0.0f), 
-             dot(-r*r*cosh(v)*sinh(v)*cos(u), r*r*cosh(v)*sinh(v)*cos(u), 0.0f, 0.0f),
-             dot(0.0f, 0.0f, -r*r*sinh(v)*cosh(v)*cos(u)*sin(u), -r*r*cosh(v)*sinh(v)*sin(u)),
-             dot(0.0f, 0.0f, -r*r*cosh(v)*sinh(v)*sin(u), r*r*sinh(v)*cosh(v)*sin(u)));
-    
-    // Calcul des courbures principales
-    mat2 Ws = -IIs*inverse(Is);
-    auto lambda = eigenvalue(Ws);
+vec3 catenoide::du(const float& u,const float&  v,const float&  r){
+    return vec3(a*sinh(u)*cos(v), a*sinh(u)*sin(v), a);
+}
 
-    return lambda;
+vec3 catenoide::dv(const float& u,const float&  v,const float&  r){
+    return vec3(-a*cosh(u)*sin(v), a*cosh(u)*cos(v), a*u);
+}
+
+vec3 catenoide::du2(const float& u,const float&  v,const float&  r){
+    return vec3(a*cosh(u)*cos(v), a*cosh(u)*sin(v), 0);
+}
+
+vec3 catenoide::dv2(const float& u,const float&  v,const float&  r){
+    return vec3(-a*cosh(u)*cos(v), -a*cosh(u)*sin(v), a*u);
+}
+
+vec3 catenoide::dudv(const float& u,const float&  v,const float&  r){
+    return vec3(-a*sinh(u)*sin(v), a*sinh(u)*cos(v), 0);
 }
 
 
