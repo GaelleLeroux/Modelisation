@@ -7271,7 +7271,7 @@ CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o: ../src/local/interface/my
 
 CMakeFiles/pgm.dir/src/local/scene/catenoide.cpp.o: ../src/local/scene/catenoide.cpp \
   /usr/include/stdc-predef.h \
-  ../src/local/scene/catenoide.hpp \
+  ../src/local/scene/cylindrique.hpp \
   ../src/lib/mesh/mesh_parametric.hpp \
   ../src/lib/mesh/mesh_basic.hpp \
   ../src/lib/3d/vec3.hpp \
@@ -9091,11 +9091,11 @@ CMakeFiles/pgm.dir/src/local/scene/sphere.cpp.o: ../src/local/scene/sphere.cpp \
 
 ../src/local/scene/helicoide.cpp:
 
-../src/local/scene/cylindrique.hpp:
-
 ../src/local/scene/cylindrique.cpp:
 
 ../src/local/scene/methode.hpp:
+
+../src/local/scene/cylindrique.hpp:
 
 ../src/local/scene/catenoide.cpp:
 

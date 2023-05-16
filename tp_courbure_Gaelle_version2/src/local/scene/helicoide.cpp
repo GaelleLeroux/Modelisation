@@ -3,7 +3,28 @@
 #include "../../lib/3d/vec2.hpp"
 #include "../../lib/3d/mat2.hpp"
 #include "methode.hpp"
+
 using namespace cpe;
+
+vec3 helicoide::du(const float& u,const float&  v,const float&  r){
+    return vec3(cos(v),sin(v),0);
+}
+
+vec3 helicoide::dv(const float& u,const float&  v,const float&  r){
+    return vec3(-u*sin(v),u*cos(v),h);
+}
+
+vec3 helicoide::du2(const float& u,const float&  v,const float&  r){
+    return vec3(0,0,0);
+}
+
+vec3 helicoide::dv2(const float& u,const float&  v,const float&  r){
+    return vec3(-u*cos(v),-u*sin(v),0);
+}
+
+vec3 helicoide::dudv(const float& u,const float&  v,const float&  r){
+    return vec3(-sin(v),cos(v),0);
+}
 
 
 vec2 build_courbure_helicoide(const float& u,const float&  v,const float&  r)
@@ -73,7 +94,8 @@ cpe::mesh_parametric& helicoide::create(cpe::mesh_parametric& surface){
             float const u = u_min + u_n * (u_max-u_min);
             float const v = v_min + v_n * (v_max-v_min);
             
-            cpe::vec2 lambda = build_courbure_cylindrique_discrete(ku,kv,r,Nu,Nv,surface);
+            // cpe::vec2 lambda = build_courbure_cylindrique_discrete(ku,kv,r,Nu,Nv,surface);
+            vec2 lambda = build_courbure_analytique(du(u,v,r),dv(u,v,r),du2(u,v,r),dv2(u,v,r),dudv(u,v,r));
 
             float Ks = lambda.x()*lambda.y();
             float Hs = 0.5* (lambda.x()+lambda.y());
