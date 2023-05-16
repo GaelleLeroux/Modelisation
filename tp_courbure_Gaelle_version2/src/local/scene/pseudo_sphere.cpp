@@ -82,7 +82,8 @@ cpe::mesh_parametric& pseudo_sphere::create(cpe::mesh_parametric& surface){
         {
             cpe::vec3 couleur;
             if ((std::round((max_c-min_c)*100)/100) != 0){
-                couleur = colormap((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
+                couleur = colormap_hsv_matlab((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
+                // couleur = colormap((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
                 //std::cout<<(liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c)<<std::endl;
             }
             else {
