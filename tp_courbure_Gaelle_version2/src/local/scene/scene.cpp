@@ -36,7 +36,7 @@ void scene::build_surface_cylindrique()
     // para_hyper forme;
     // helicoide forme;
     // pseudo_sphere forme;
-    surface = forme.create(surface);
+    surface = forme.create(surface,true);
 
 }
 

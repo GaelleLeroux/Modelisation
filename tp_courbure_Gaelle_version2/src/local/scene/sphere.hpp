@@ -8,7 +8,7 @@ class sphere {
     public :
     sphere();
 
-    cpe::mesh_parametric& create(cpe::mesh_parametric& surface);
+    cpe::mesh_parametric& create(cpe::mesh_parametric& surface,bool Discret);
 
 
     private :

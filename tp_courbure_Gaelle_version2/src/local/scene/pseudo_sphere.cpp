@@ -29,7 +29,7 @@ vec3 pseudo_sphere::dudv(const float& u,const float&  v,const float&  r){
 
 pseudo_sphere::pseudo_sphere(){};
 
-cpe::mesh_parametric& pseudo_sphere::create(cpe::mesh_parametric& surface){
+cpe::mesh_parametric& pseudo_sphere::create(cpe::mesh_parametric& surface,bool Discret){
     surface.set_plane_xy_unit(Nu,Nv);
     liste_lambda.resize(Nu*Nv);
 
@@ -60,8 +60,13 @@ cpe::mesh_parametric& pseudo_sphere::create(cpe::mesh_parametric& surface){
             float const u = u_min + u_n * (u_max-u_min);
             float const v = v_min + v_n * (v_max-v_min);
             
-            vec2 lambda = build_courbure_discrete(ku,kv,r,Nu,Nv,surface);
-            //vec2 lambda = build_courbure_analytique(du(u,v,r),dv(u,v,r),du2(u,v,r),dv2(u,v,r),dudv(u,v,r));
+            vec2 lambda;
+            if (Discret){
+                lambda = build_courbure_discrete(ku,kv,r,Nu,Nv,surface);
+            }
+            else{
+                lambda = build_courbure_analytique(du(u,v,r),dv(u,v,r),du2(u,v,r),dv2(u,v,r),dudv(u,v,r));
+            }
 
             float Ks = lambda.x()*lambda.y();
             float Hs = 0.5* (lambda.x()+lambda.y());
