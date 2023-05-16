@@ -21,7 +21,6 @@
 #include "../../lib/3d/vec3.hpp"
 
 #include "catenoide.hpp"
-#include "cylindrique.hpp"
 #include "sphere.hpp"
 #include "para_hyper.hpp"
 #include "helicoide.hpp"
@@ -32,41 +31,14 @@ using namespace cpe;
 
 void scene::build_surface_cylindrique()
 {
-    // cylindrique forme;
     // catenoide forme;
-    // sphere forme;
+    sphere forme;
     // para_hyper forme;
     // helicoide forme;
-    pseudo_sphere forme;
+    // pseudo_sphere forme;
     surface = forme.create(surface);
 
 }
-
-
-
-vec2 scene::build_courbure_chapeau(const float& u,const float&  v,const float&  r, const float& a, const float& b)
-{
-    mat2 Is(dot(vec3(-3*a*sin(u)*sin(u)*cos(v)*cos(v)*cos(v),3*b*cos(u)*cos(u)*cos(v)*cos(v)*cos(v),0),vec3(-3*a*sin(u)*sin(u)*cos(v)*cos(v)*cos(v),3*b*cos(u)*cos(u)*cos(v)*cos(v)*cos(v),0)), 
-            dot(vec3(-3*a*sin(u)*sin(u)*cos(v)*cos(v)*cos(v),3*b*cos(u)*cos(u)*cos(v)*cos(v)*cos(v),0),vec3(-3*a*cos(u)*cos(u)*cos(u)*sin(v)*sin(v),-3*b*sin(u)*sin(u)*sin(u)*sin(v)*sin(v),3*a*cos(v)*cos(v))), 
-            dot(vec3(-3*a*sin(u)*sin(u)*cos(v)*cos(v)*cos(v),3*b*cos(u)*cos(u)*cos(v)*cos(v)*cos(v),0),vec3(-3*a*cos(u)*cos(u)*cos(u)*sin(v)*sin(v),-3*b*sin(u)*sin(u)*sin(u)*sin(v)*sin(v),3*a*cos(v)*cos(v))),
-            dot(vec3(-3*a*cos(u)*cos(u)*cos(u)*sin(v)*sin(v),-3*b*sin(u)*sin(u)*sin(u)*sin(v)*sin(v),3*a*cos(v)*cos(v)),vec3(-3*a*cos(u)*cos(u)*cos(u)*sin(v)*sin(v),-3*b*sin(u)*sin(u)*sin(u)*sin(v)*sin(v),3*a*cos(v)*cos(v))));
-        
-    vec3 n = normalized(cross(vec3(-3*a*sin(u)*sin(u)*cos(v)*cos(v)*cos(v),3*b*cos(u)*cos(u)*cos(v)*cos(v)*cos(v),0),vec3(-3*a*cos(u)*cos(u)*cos(u)*sin(v)*sin(v),-3*b*sin(u)*sin(u)*sin(u)*sin(v)*sin(v),3*a*cos(v)*cos(v))))  ;
-
-    mat2 IIs(dot(vec3(-6*a*cos(u)*cos(v)*cos(v)*cos(v),-6*b*sin(u)*cos(v)*cos(v)*cos(v),0),n), 
-            dot(vec3(9*a*sin(u)*sin(u)*sin(v)*sin(v),-9*b*cos(u)*cos(u)*sin(v)*sin(v),0),n), 
-            dot(vec3(9*a*sin(u)*sin(u)*sin(v)*sin(v),-9*b*cos(u)*cos(u)*sin(v)*sin(v),0),n),
-            dot(vec3(-6*a*cos(u)*cos(u)*cos(u)*cos(v),-6*b*sin(u)*sin(u)*sin(u)*cos(v),-6*a*sin(v)),n));
-
-    mat2 Ws = -IIs*inverse(Is);
-
-    auto lambda = eigenvalue(Ws) ;
-
-    return lambda;
-
-}
-
-
 
 void scene::load_scene()
 {

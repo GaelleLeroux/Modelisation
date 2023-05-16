@@ -27,7 +27,7 @@ float max(float x,float y){
 }
 
 
-cpe::vec2 build_courbure_cylindrique_discrete(const float& u,const float&  v,const float&  r,const int& Nu, const int& Nv, cpe::mesh_parametric& surface)
+cpe::vec2 build_courbure_discrete(const float& u,const float&  v,const float&  r,const int& Nu, const int& Nv, cpe::mesh_parametric& surface)
 {
     if (u!=0 and u!=Nu-1 and v!=0 and v!=Nv-1){
         cpe::mat2 Is(dot((surface.vertex(u+1,v)-surface.vertex(u-1,v))/2,(surface.vertex(u+1,v)-surface.vertex(u-1,v))/2), 
