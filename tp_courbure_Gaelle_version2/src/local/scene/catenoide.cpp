@@ -11,7 +11,7 @@ vec3 catenoide::du(const float& u,const float&  v,const float&  r){
 }
 
 vec3 catenoide::dv(const float& u,const float&  v,const float&  r){
-    return vec3(-a*cosh(u)*sin(v), a*cosh(u)*cos(v), a*u);
+    return vec3(-a*cosh(u)*sin(v), a*cosh(u)*cos(v), 0);
 }
 
 vec3 catenoide::du2(const float& u,const float&  v,const float&  r){
@@ -19,7 +19,7 @@ vec3 catenoide::du2(const float& u,const float&  v,const float&  r){
 }
 
 vec3 catenoide::dv2(const float& u,const float&  v,const float&  r){
-    return vec3(-a*cosh(u)*cos(v), -a*cosh(u)*sin(v), a*u);
+    return vec3(-a*cosh(u)*cos(v), -a*cosh(u)*sin(v), 0);
 }
 
 vec3 catenoide::dudv(const float& u,const float&  v,const float&  r){
@@ -60,7 +60,7 @@ cpe::mesh_parametric& catenoide::create(cpe::mesh_parametric& surface){
             float const u = u_min + u_n * (u_max-u_min);
             float const v = v_min + v_n * (v_max-v_min);
             
-            // cpe::vec2 lambda = build_courbure_cylindrique_discrete(ku,kv,r,Nu,Nv,surface);
+            // vec2 lambda = build_courbure_cylindrique_discrete(ku,kv,r,Nu,Nv,surface);
             vec2 lambda = build_courbure_analytique(du(u,v,r),dv(u,v,r),du2(u,v,r),dv2(u,v,r),dudv(u,v,r));
 
             float Ks = lambda.x()*lambda.y();

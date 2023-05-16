@@ -94,8 +94,8 @@ cpe::mesh_parametric& helicoide::create(cpe::mesh_parametric& surface){
             float const u = u_min + u_n * (u_max-u_min);
             float const v = v_min + v_n * (v_max-v_min);
             
-            // cpe::vec2 lambda = build_courbure_cylindrique_discrete(ku,kv,r,Nu,Nv,surface);
-            vec2 lambda = build_courbure_analytique(du(u,v,r),dv(u,v,r),du2(u,v,r),dv2(u,v,r),dudv(u,v,r));
+            vec2 lambda = build_courbure_cylindrique_discrete(ku,kv,r,Nu,Nv,surface);
+            //vec2 lambda = build_courbure_analytique(du(u,v,r),dv(u,v,r),du2(u,v,r),dv2(u,v,r),dudv(u,v,r));
 
             float Ks = lambda.x()*lambda.y();
             float Hs = 0.5* (lambda.x()+lambda.y());
