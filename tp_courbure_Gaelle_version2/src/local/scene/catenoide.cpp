@@ -72,12 +72,12 @@ cpe::mesh_parametric& catenoide::create(cpe::mesh_parametric& surface,bool Discr
             float Ks = lambda.x()*lambda.y();
             float Hs = 0.5* (lambda.x()+lambda.y());
            
-            liste_lambda[ku*Nv+kv] = Ks;
-            min_c = min(min_c,Ks);
-            max_c = max(max_c,Ks);
+            liste_lambda[ku*Nv+kv] = Hs;
+            // min_c = min(min_c,Ks);
+            // max_c = max(max_c,Ks);
 
-            // min_c = min(min_c,Hs);
-            // max_c = max(max_c,Hs);
+            min_c = min(min_c,Hs);
+            max_c = max(max_c,Hs);
 
         }
     }
@@ -94,11 +94,7 @@ cpe::mesh_parametric& catenoide::create(cpe::mesh_parametric& surface,bool Discr
             }
             else {
                 couleur = colormap_hsv_matlab(0);
-<<<<<<< HEAD
-                // couleur = colormap(0),
-=======
                 // couleur = colormap(0);
->>>>>>> a565b2517d2d966058a4df7866026fc628a362b0
             }
             
             surface.color(ku,kv) = couleur;
