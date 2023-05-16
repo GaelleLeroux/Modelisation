@@ -72,8 +72,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/pgm.dir/src/local/interface/myWindow.cpp.o.d"
   "CMakeFiles/pgm.dir/src/local/scene/catenoide.cpp.o"
   "CMakeFiles/pgm.dir/src/local/scene/catenoide.cpp.o.d"
-  "CMakeFiles/pgm.dir/src/local/scene/cylindrique.cpp.o"
-  "CMakeFiles/pgm.dir/src/local/scene/cylindrique.cpp.o.d"
   "CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.o"
   "CMakeFiles/pgm.dir/src/local/scene/helicoide.cpp.o.d"
   "CMakeFiles/pgm.dir/src/local/scene/methode.cpp.o"

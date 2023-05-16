@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2
+CMAKE_SOURCE_DIR = /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build
+CMAKE_BINARY_DIR = /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build/CMakeFiles /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/build/CMakeFiles /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -982,30 +982,6 @@ src/local/scene/catenoide.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/src/local/scene/catenoide.cpp.s
 .PHONY : src/local/scene/catenoide.cpp.s
 
-src/local/scene/cylindrique.o: src/local/scene/cylindrique.cpp.o
-.PHONY : src/local/scene/cylindrique.o
-
-# target to build an object file
-src/local/scene/cylindrique.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/src/local/scene/cylindrique.cpp.o
-.PHONY : src/local/scene/cylindrique.cpp.o
-
-src/local/scene/cylindrique.i: src/local/scene/cylindrique.cpp.i
-.PHONY : src/local/scene/cylindrique.i
-
-# target to preprocess a source file
-src/local/scene/cylindrique.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/src/local/scene/cylindrique.cpp.i
-.PHONY : src/local/scene/cylindrique.cpp.i
-
-src/local/scene/cylindrique.s: src/local/scene/cylindrique.cpp.s
-.PHONY : src/local/scene/cylindrique.s
-
-# target to generate assembly for a file
-src/local/scene/cylindrique.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pgm.dir/build.make CMakeFiles/pgm.dir/src/local/scene/cylindrique.cpp.s
-.PHONY : src/local/scene/cylindrique.cpp.s
-
 src/local/scene/helicoide.o: src/local/scene/helicoide.cpp.o
 .PHONY : src/local/scene/helicoide.o
 
@@ -1265,9 +1241,6 @@ help:
 	@echo "... src/local/scene/catenoide.o"
 	@echo "... src/local/scene/catenoide.i"
 	@echo "... src/local/scene/catenoide.s"
-	@echo "... src/local/scene/cylindrique.o"
-	@echo "... src/local/scene/cylindrique.i"
-	@echo "... src/local/scene/cylindrique.s"
 	@echo "... src/local/scene/helicoide.o"
 	@echo "... src/local/scene/helicoide.i"
 	@echo "... src/local/scene/helicoide.s"
