@@ -8,7 +8,7 @@ class para_hyper {
     public :
     para_hyper();
 
-    cpe::mesh_parametric& create(cpe::mesh_parametric& surface);
+    cpe::mesh_parametric& create(cpe::mesh_parametric& surface,bool Discret);
 
     cpe::vec3 du(const float& u,const float&  v,const float&  r);
     cpe::vec3 dv(const float& u,const float&  v,const float&  r);
