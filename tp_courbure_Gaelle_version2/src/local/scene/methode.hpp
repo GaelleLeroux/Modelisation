@@ -23,4 +23,6 @@ cpe::vec3 colormap_IDL_Haze(float x);
 
 cpe::vec3 colormap_supernova(float x);
 
+cpe::vec3 colormap_idl16(float x);
+
 #endif

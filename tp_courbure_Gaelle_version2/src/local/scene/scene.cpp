@@ -31,12 +31,12 @@ using namespace cpe;
 
 void scene::build_surface_cylindrique()
 {
-    catenoide forme;
+    // catenoide forme;
     // sphere forme;
     // para_hyper forme;
     // helicoide forme;
-    // pseudo_sphere forme;
-    surface = forme.create(surface,true);
+    pseudo_sphere forme;
+    surface = forme.create(surface,false);
 
 }
 

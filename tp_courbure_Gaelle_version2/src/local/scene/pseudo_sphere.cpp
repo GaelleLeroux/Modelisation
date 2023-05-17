@@ -71,19 +71,19 @@ cpe::mesh_parametric& pseudo_sphere::create(cpe::mesh_parametric& surface,bool D
             float Ks = lambda.x()*lambda.y();
             float Hs = 0.5* (lambda.x()+lambda.y());
            
-             float lambda1 = lambda.x();
+            float lambda1 = lambda.x();
             float lambda2 = lambda.y();
            
-            liste_lambda[ku*Nv+kv] = lambda2;
+            liste_lambda[ku*Nv+kv] = Ks;
 
             // min_c = min(min_c,lambda1);
             // max_c = max(max_c,lambda1);
 
-            min_c = min(min_c,lambda2);
-            max_c = max(max_c,lambda2);
+            // min_c = min(min_c,lambda2);
+            // max_c = max(max_c,lambda2);
 
-            // min_c = min(min_c,Ks);
-            // max_c = max(max_c,Ks);
+            min_c = min(min_c,Ks);
+            max_c = max(max_c,Ks);
 
             // min_c = min(min_c,Hs);
             // max_c = max(max_c,Hs);
@@ -96,12 +96,13 @@ cpe::mesh_parametric& pseudo_sphere::create(cpe::mesh_parametric& surface,bool D
         {
             cpe::vec3 couleur;
             if ((std::round((max_c-min_c)*100)/100) != 0){
-                couleur = colormap_hsv_matlab((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
+                couleur = colormap_idl16((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
+                // couleur = colormap_hsv_matlab((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
                 // couleur = colormap((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
-                //std::cout<<(liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c)<<std::endl;
             }
             else {
-                couleur = colormap_hsv_matlab(0);
+                couleur = colormap_idl16(0);
+                // couleur = colormap_hsv_matlab(0);
                 // couleur = colormap(0);
             }
             
