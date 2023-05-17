@@ -121,10 +121,12 @@ cpe::mesh_parametric& helicoide::create(cpe::mesh_parametric& surface,bool Discr
         {
             cpe::vec3 couleur;
             if ((std::round((max_c-min_c)*100)/100) != 0){
-                couleur = colormap_hsv_matlab((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
+                couleur = colormap_supernova((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
+                // couleur = colormap_hsv_matlab((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
             }
             else {
-                couleur = colormap_hsv_matlab(0);
+                couleur = colormap_supernova(0);
+                // couleur = colormap_hsv_matlab(0);
             }
             
             surface.color(ku,kv) = couleur;

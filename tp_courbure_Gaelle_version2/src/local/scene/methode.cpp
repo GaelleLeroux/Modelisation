@@ -217,6 +217,6 @@ float colormap_blue_supernova(float x) {
     }
 }
 
-vec3 methode::colormap_supernova(float x) {
+vec3 colormap_supernova(float x) {
     return vec3(colormap_red_supernova(x), colormap_green_supernova(x), colormap_blue_supernova(x));
 }
