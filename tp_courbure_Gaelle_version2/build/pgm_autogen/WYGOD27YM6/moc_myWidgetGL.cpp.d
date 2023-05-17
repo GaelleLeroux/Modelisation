@@ -1,21 +1,21 @@
-/mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build/pgm_autogen/WYGOD27YM6/moc_myWidgetGL.cpp: /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/interface/myWidgetGL.hpp \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/build/pgm_autogen/moc_predefs.h \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/3d/mat3.hpp \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/3d/mat4.hpp \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/3d/quaternion.hpp \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/3d/vec2.hpp \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/3d/vec3.hpp \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/3d/vec4.hpp \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/interface/camera_matrices.hpp \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/interface/navigator_tool.hpp \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/interface/trackball.hpp \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/mesh/mesh.hpp \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/mesh/mesh_basic.hpp \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/mesh/mesh_parametric.hpp \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/mesh/triangle_index.hpp \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/opengl/axes_helper.hpp \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/lib/opengl/mesh_opengl.hpp \
-  /mnt/c/Users/gaell/OneDrive/Documents/4ETI/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/scene.hpp \
+/mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/build/pgm_autogen/WYGOD27YM6/moc_myWidgetGL.cpp: /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/local/interface/myWidgetGL.hpp \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/build/pgm_autogen/moc_predefs.h \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/3d/mat3.hpp \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/3d/mat4.hpp \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/3d/quaternion.hpp \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/3d/vec2.hpp \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/3d/vec3.hpp \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/3d/vec4.hpp \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/interface/camera_matrices.hpp \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/interface/navigator_tool.hpp \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/interface/trackball.hpp \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/mesh/mesh.hpp \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/mesh/mesh_basic.hpp \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/mesh/mesh_parametric.hpp \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/mesh/triangle_index.hpp \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/opengl/axes_helper.hpp \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/lib/opengl/mesh_opengl.hpp \
+  /mnt/c/Users/capuc/Desktop/CPE-4-ETI/S8/Géo_MGP3D/Modelisation/tp_courbure_Gaelle_version2/src/local/scene/scene.hpp \
   /usr/include/GL/gl.h \
   /usr/include/GL/glew.h \
   /usr/include/GL/glu.h \
