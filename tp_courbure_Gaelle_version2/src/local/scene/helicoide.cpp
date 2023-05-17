@@ -118,8 +118,8 @@ cpe::mesh_parametric& helicoide::create(cpe::mesh_parametric& surface,bool Discr
             // min_c = min(min_c,Ks);
             // max_c = max(max_c,Ks);
 
-            // min_c = min(min_c,Hs);
-            // max_c = max(max_c,Hs);
+            min_c = min(min_c,Hs);
+            max_c = max(max_c,Hs);
 
         }
     }

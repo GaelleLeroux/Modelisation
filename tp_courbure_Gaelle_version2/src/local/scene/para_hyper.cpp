@@ -8,7 +8,7 @@
 using namespace cpe;
 
 vec3 para_hyper::du(const float& u,const float&  v,const float&  r){
-    return vec3(a*u,0,2*h*u);
+    return vec3(a,0,2*h*u);
 }
 
 vec3 para_hyper::dv(const float& u,const float&  v,const float&  r){
@@ -46,7 +46,7 @@ mesh_parametric& para_hyper::create(mesh_parametric& surface,bool Discret){
 
             float const x = a*u;
             float const y = b*v;
-            float const z = h*(u*u-v*v); 
+            float const z = h*((u*u)-(v*v)); 
             surface.vertex(ku,kv) = {x,y,z};
         };
     };
@@ -71,17 +71,26 @@ mesh_parametric& para_hyper::create(mesh_parametric& surface,bool Discret){
 
             float Ks = lambda.x()*lambda.y();
             float Hs = 0.5* (lambda.x()+lambda.y());
+            float lambda1 = lambda.x();
+            float lambda2 = lambda.y();
 
             // std::cout<<lambda.x()<<"  "<<lambda.y()<<std::endl;
            
-            liste_lambda[ku*Nv+kv] = Ks;
-            min_c = min(min_c,Ks);
-            max_c = max(max_c,Ks);
+            liste_lambda[ku*Nv+kv] = lambda2;
+            // min_c = min(min_c,Ks);
+            // max_c = max(max_c,Ks);
 
             if (Ks>260){
                 std::cout<<lambda.x()<<"  "<<lambda.y()<<std::endl;
             }
             
+
+            // min_c = min(min_c,lambda1);
+            // max_c = max(max_c,lambda1);
+
+            // min_c = min(min_c,lambda2);
+            // max_c = max(max_c,lambda2);
+
 
             // min_c = min(min_c,Hs);
             // max_c = max(max_c,Hs);
@@ -98,13 +107,15 @@ mesh_parametric& para_hyper::create(mesh_parametric& surface,bool Discret){
         {
             vec3 couleur;
             if ((max_c-min_c) != 0){
-                couleur = colormap((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
-                // couleur = colormap_hsv_matlab((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
+                couleur = colormap_hsv_matlab((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
+                // couleur = colormap_supernova((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
+                // couleur = colormap((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
 
             }
             else {
-                couleur = colormap(0);
-                // couleur = colormap_hsv_matlab(0);
+                couleur = colormap_hsv_matlab(0);
+                // couleur = colormap_supernova(0);
+                // couleur = colormap(0);
             }
             
             surface.color(ku,kv) = couleur;
