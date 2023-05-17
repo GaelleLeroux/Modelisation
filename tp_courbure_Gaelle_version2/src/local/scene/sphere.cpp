@@ -74,16 +74,16 @@ mesh_parametric& sphere::create(mesh_parametric& surface,bool Discret){
 
             // std::cout<<lambda.x()<<"  "<<lambda.y()<<std::endl;
            
-            liste_lambda[ku*Nv+kv] = Ks;
-            min_c = min(min_c,Ks);
-            max_c = max(max_c,Ks);
+            liste_lambda[ku*Nv+kv] = Hs;
+            // min_c = min(min_c,Ks);
+            // max_c = max(max_c,Ks);
 
             if (std::isnan(lambda.y())){
                 liste_lambda[ku*Nv+kv] = liste_lambda[ku*Nv+kv-1];
             }
 
-            // min_c = min(min_c,Hs);
-            // max_c = max(max_c,Hs);
+            min_c = min(min_c,Hs);
+            max_c = max(max_c,Hs);
 
         }
     }
@@ -98,10 +98,12 @@ mesh_parametric& sphere::create(mesh_parametric& surface,bool Discret){
         {
             vec3 couleur;
             if ((std::round((max_c-min_c)*100)/100) != 0){
-                couleur = colormap((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
+                // couleur = colormap((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
+                couleur = colormap_hsv_matlab((liste_lambda[ku*Nv+kv]-min_c)/(max_c-min_c));
             }
             else {
-                couleur = colormap(0);
+                // couleur = colormap(0);
+                couleur = colormap_hsv_matlab(0);
             }
             // std::cout<<couleur<<std::endl;
             surface.color(ku,kv) = couleur;

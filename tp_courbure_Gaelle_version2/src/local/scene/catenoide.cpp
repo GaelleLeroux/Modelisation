@@ -72,12 +72,12 @@ cpe::mesh_parametric& catenoide::create(cpe::mesh_parametric& surface,bool Discr
             float Ks = lambda.x()*lambda.y();
             float Hs = 0.5* (lambda.x()+lambda.y());
            
-            liste_lambda[ku*Nv+kv] = Ks;
-            min_c = min(min_c,Ks);
-            max_c = max(max_c,Ks);
+            liste_lambda[ku*Nv+kv] = Hs;
+            // min_c = min(min_c,Ks);
+            // max_c = max(max_c,Ks);
 
-            // min_c = min(min_c,Hs);
-            // max_c = max(max_c,Hs);
+            min_c = min(min_c,Hs);
+            max_c = max(max_c,Hs);
 
         }
     }
