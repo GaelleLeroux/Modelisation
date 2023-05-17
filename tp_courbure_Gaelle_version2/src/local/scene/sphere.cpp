@@ -74,16 +74,16 @@ mesh_parametric& sphere::create(mesh_parametric& surface,bool Discret){
 
             // std::cout<<lambda.x()<<"  "<<lambda.y()<<std::endl;
            
-            liste_lambda[ku*Nv+kv] = Hs;
-            // min_c = min(min_c,Ks);
-            // max_c = max(max_c,Ks);
+            liste_lambda[ku*Nv+kv] = Ks;
+            min_c = min(min_c,Ks);
+            max_c = max(max_c,Ks);
 
             if (std::isnan(lambda.y())){
                 liste_lambda[ku*Nv+kv] = liste_lambda[ku*Nv+kv-1];
             }
 
-            min_c = min(min_c,Hs);
-            max_c = max(max_c,Hs);
+            // min_c = min(min_c,Hs);
+            // max_c = max(max_c,Hs);
 
         }
     }
